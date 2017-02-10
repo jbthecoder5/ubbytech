@@ -1,29 +1,121 @@
 
 // brand header color, font, etc variables
-$bh-bg: #594545;
+
+$bh-bg: #F3F8FA;
+$bc: #000;
+$hname: Verdana, Geneva, sans-serif;
+$rwd-li: 85px;
+
+
+
+
+
+
+// brand contact, brand container, brand nav and name styling
+
+.brand-contact {
+	height: 35px;
+	width: 100%;
+	background-color: $bc;
+	clear: both;
+
+	p {
+		text-align: center;
+		color: #fff;
+		line-height: 35px;
+	}
+}
 
 
 
 .brand-header {
-	height: 150px;
+	height: 135px;
 	width: 100%;
-	background-color: $bh-bg;
-
-	.brand-name {
-
-	}
-
-	.brand-nav {
-
-	}
+	background: #817C62;
+	opacity: 0.5;
 }
-
-
 
 .brand-name {
+	height: 100px;
+	width: 40%;
+	float: left;
 
+	@media (max-width: 500px) {
+		height: 50px;
+		width: 100%;
+		float: none;
+	}
+
+	h2 {
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+		line-height: 100px;
+		margin-left: 90px;
+
+		@media (max-width: 500px) {
+			line-height: 50px;
+			text-align: center;
+			margin-left: 0;
+		}	
+	}
 }
 
+
 .brand-nav {
+	height: 100px;
+	width: 60%;
+	float: left;
+
+	@media (max-width: 500px) {
+		height: $rwd-li;
+		width: 100%;
+		float: none;
+		background: #000;
+	}
+
+	ul {
+
+		li {
+			list-style: none;
+			display: inline-block;
+
+			@media (max-width: 500px) {
+				display: block;
+				height: $rwd-li / 4;
+				width: 100%;
+				text-align: center;
+
+			}
+
+			a {
+				padding-bottom: 30px;
+				padding-top: 30px;
+				padding-left: 30px;
+				padding-right: 30px;
+
+				text-decoration: none;
+				font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+				font-size: 1.4em;
+				text-align: center;
+				line-height: 100px;
+
+				@media (max-width: 500px) {
+					padding: 0;
+					line-height: 0;
+					font-size: 1em;
+					text-align: center;
+				}
+
+				&:link, &:visited {
+					color: #ccc;
+				}
+
+				&:hover, &:active {
+					color: #ccc;
+					text-decoration: none;
+
+				}
+			}
+		}
+	}
 
 }
