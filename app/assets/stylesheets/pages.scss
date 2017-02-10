@@ -31,8 +31,6 @@ $rwd-li: 85px;
 .brand-header {
 	height: 135px;
 	width: 100%;
-	background: #817C62;
-	opacity: 0.5;
 }
 
 .brand-name {
@@ -58,7 +56,6 @@ $rwd-li: 85px;
 		}	
 	}
 }
-
 
 .brand-nav {
 	height: 100px;
@@ -97,6 +94,7 @@ $rwd-li: 85px;
 				font-size: 1.4em;
 				text-align: center;
 				line-height: 100px;
+				color: #000;
 
 				@media (max-width: 500px) {
 					padding: 0;
@@ -106,11 +104,11 @@ $rwd-li: 85px;
 				}
 
 				&:link, &:visited {
-					color: #ccc;
+					color: #000;
 				}
 
 				&:hover, &:active {
-					color: #ccc;
+					color: #68A2D2;
 					text-decoration: none;
 
 				}
@@ -118,4 +116,14 @@ $rwd-li: 85px;
 		}
 	}
 
+}
+
+
+.bg-cover {
+	background-image: image-url("bg.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-origin: contain;
+
+	height: 700px;
 }
