@@ -61,7 +61,7 @@ $rwd-li: 85px;
 	height: 100px;
 	width: 60%;
 	float: left;
-
+	
 	@media (max-width: 500px) {
 		height: $rwd-li;
 		width: 100%;
@@ -126,4 +126,22 @@ $rwd-li: 85px;
 	background-origin: contain;
 
 	height: 700px;
+}
+
+.txt-center {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.par-center {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 100px;
+}
+
+
+.affordable {
+	width: 100%;
+	background: #000;
+	margin-top: 0;
 }
