@@ -14,15 +14,33 @@ $rwd-li: 85px;
 // brand contact, brand container, brand nav and name styling
 
 .brand-contact {
-	height: 35px;
+	height: 40px;
 	width: 100%;
 	background-color: $bc;
-	clear: both;
 
-	p {
-		text-align: center;
+	@media (max-width: 500px) {
+		height: 75px;
+		background-color: white;
+	}
+
+	.company-num {
+		height: 40px;
+		line-height: 40px;
 		color: #fff;
-		line-height: 35px;
+		text-align: center;
+
+		@media (max-width: 500px) {
+			color: #000;
+		}
+
+		.contact-brands {
+		width: 20px;
+		height: 20px;
+		margin-left: 10px;
+			@media (max-width: 500px) {
+
+			}
+		}	
 	}
 }
 
@@ -144,4 +162,14 @@ $rwd-li: 85px;
 	width: 100%;
 	background: #000;
 	margin-top: 0;
+}
+
+
+
+/*   footer styling */
+
+
+.btm-foot {
+	background: #000;
+	color: #fff;
 }
