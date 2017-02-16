@@ -115,6 +115,7 @@ $rwd-li: 85px;
 				color: #000;
 
 				@media (max-width: 500px) {
+					color: #ccc;
 					padding: 0;
 					line-height: 0;
 					font-size: 1em;
@@ -123,6 +124,10 @@ $rwd-li: 85px;
 
 				&:link, &:visited {
 					color: #000;
+
+					@media (max-width: 500px) {
+						color: #ccc;
+					}
 				}
 
 				&:hover, &:active {
