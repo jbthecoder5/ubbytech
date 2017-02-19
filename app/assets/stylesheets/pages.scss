@@ -144,6 +144,24 @@ $rwd-li: 85px;
 
 
 
+/*   footer styling */
+
+
+.btm-foot {
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* misc styling for index.html.erb file */
+
 
 
 .bg-cover {
@@ -158,6 +176,13 @@ $rwd-li: 85px;
 .txt-center {
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+.serv-txt-cent {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #fff;
+
 }
 
 .tcenter {
@@ -183,10 +208,11 @@ $rwd-li: 85px;
 }
 
 
-/*   footer styling */
 
+.main-serv {
+	background-color: #000;
+}
 
-.btm-foot {
-	background: #000;
-	color: #fff;
+.misc-serv {
+	background-color: #5C3614;
 }
