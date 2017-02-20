@@ -25,6 +25,8 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'font-awesome-sass', '~> 4.7.0'
 
 
+# sendgrid gem for smtp relay
+gem 'sendgrid-ruby'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
