@@ -4,8 +4,18 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1>Thanks for signing up, <%= @user.name %>!</h1>
-    <p>Thanks for joining and have a great day! Now sign in and do
-awesome things!</p>
+    <div class="jumbotron">
+    	<h1>UbbyTech</h1>
+      <p>
+      	<%= @user.name %> we have received your message, 
+      	give us 12-24 maximum hours to respond back to you
+      </p>
+    </div>
+
+    <h3>Your message</h3>
+    <%= @user.message %>
+    <p>
+    	Thanks for choosing our business and we look forward to working with you
+	</p>
   </body>
 </html>

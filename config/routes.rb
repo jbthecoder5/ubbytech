@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
- 
-  resources :users
-
-
-
+  
+  post '/' => 'users#create'
   
   root 'pages#index'
 
