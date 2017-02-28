@@ -187,12 +187,46 @@
                   <li class="list-group-item">Ruby on Rails</li>
                   <li class="list-group-item">HTHL5/CSS3</li>
                   <li class="list-group-item">SCSS</li>
-                  <li class="list-group-item">CoffeScript/jQuery</li>
+                  <li class="list-group-item">CoffeeScript</li>
+                  <li class="list-group-item">JS/jQuery</li>
                 </ul>
                 <div class="card-block">
-                   <button type="button" class="btn btn-info btn-lg btn-block">Get a price quote</button>
+                   <button type="button" class="btn btn-info btn-lg btn-block"
+                   data-toggle="modal" data-target="#codeRefactor">Get a price quote</button>
+                     <div class="modal fade" id="codeRefactor" tabindex="-1" role="dialog" aria-labelledby="codeRefactorLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="codeRefactorLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <%= form_tag do %>
+                              <div class="form-group">
+                                <%= label_tag 'Recipient:', 'Recipient:', class: 'form-control-label' %>
+                                <%= text_field_tag 'cr-recipient-name', nil, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= label_tag 'languages', 'Languages', class: 'form-control-label' %>
+                                <%= text_field_tag 'languages', nil, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= label_tag 'language-message', 'Message', class: 'form-control-label' %>
+                                <%= text_area_tag 'language-message', nil, class: 'form-control' %>
+                              </div>
+                            <% end %>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
           </div>
 
           <div class="col">
@@ -208,7 +242,36 @@
                   <li class="list-group-item">We'll gather the information you need!</li>
                 </ul>
                 <div class="card-block">
-                  <button type="button" class="btn btn-info btn-lg btn-block">Get a price quote</button>
+                  <button type="button" class="btn btn-info btn-lg btn-block"
+                  data-toggle="modal" data-target="#webCrawler">Get a price quote</button>
+                  <div class="modal fade" id="webCrawler" tabindex="-1" role="dialog" aria-labelledby="webCrawlerLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="webCrawlerLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <%= label_tag 'wc-name', 'Recipient', class: 'form-control-label' %>
+                                <%= text_field_tag 'wc-name', nil, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= label_tag 'wc-message', 'Message', class: 'form-control-label' %>
+                                <%= text_field_tag 'wc-message', nil, class: 'form-control' %>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
           </div>
@@ -225,7 +288,36 @@
                   <li class="list-group-item">efewfwfwfwf  fwfwfwf</li>
                 </ul>
                 <div class="card-block">
-                   <button type="button" class="btn btn-info btn-lg btn-block">Get a price quote</button>
+                   <button type="button" class="btn btn-info btn-lg btn-block"
+                   data-toggle="modal" data-target="#opensource">Get a price quote</button>
+                   <div class="modal fade" id="opensource" tabindex="-1" role="dialog" aria-labelledby="webCrawlerLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="webCrawlerLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <%= label_tag 'os-recipient-name', 'Recipient', class: 'form-control-label' %>
+                                <%= text_field_tag 'os-recipient-name', nil, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= label_tag 'os-message-text', 'Message', class: 'form-control-label' %>
+                                <%= text_area_tag 'os-message-text', nil, class: 'form-control' %>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
           </div>
