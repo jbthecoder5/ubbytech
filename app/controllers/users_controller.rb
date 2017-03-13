@@ -11,12 +11,10 @@ class UsersController < ApplicationController
 		@user = User.new(user_params)
 
 		if @user.save
-			flash[:success] = "Message Sent! Give us 12-24 hours to reply back. Thank you for your business!"
 			UserNotifierMailer.send_signup_email(@user).deliver
-			redirect_to root_url
+			redirect_to root_url, notice: 'Thank you for your business, expect a reply within 10-12 hours.	'
 		else
-			flash[:danger] = "Error filling out form"
-			redirect_to root_url
+			redirect_to root_url, alert: 'Please fill out the form correctly. Thank you!'
 		end
 
 	end
