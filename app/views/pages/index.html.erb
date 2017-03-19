@@ -113,7 +113,41 @@
                   <li class="list-group-item">Secure Web Hosting</li>
                 </ul>
                 <div class="card-block">
-                   <button type="button" class="btn btn-success btn-lg btn-block">$50</button>
+                   <button type="button" class="btn btn-success btn-lg btn-block"
+                           data-toggle="modal" data-target="#sp">$50</button>
+                  <div class="modal fade" id="sp" tabindex="-1" role="dialog" aria-labelledby="spLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="spLabel">Get a price quote</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <%= form_for(:user) do |f| %>
+                              <div class="form-group">
+                                <%= f.label :name, class: 'form-control-label' %>
+                                <%= f.text_field :name, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= f.label :email, class: 'form-control-label' %>
+                                <%= f.email_field :email, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= f.label :message, class: 'form-control-label' %>
+                                <%= f.text_area :message, class: 'form-control' %>
+                              </div>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <%= f.submit "Send message", class: 'btn btn-primary' %>
+                              </div>
+                          <% end %>
+                          </div>
+                    </div>
+                  </div>
                 </div>
               </div>
           </div>
@@ -134,7 +168,41 @@
                   <li class="list-group-item">Competitor Spy/Analysis Report</li>
                 </ul>
                 <div class="card-block">
-                  <button type="button" class="btn btn-warning btn-lg btn-block">$100</button>
+                  <button type="button" class="btn btn-warning btn-lg btn-block"
+                          data-toggle="modal" data-target="#sbp">$100</button>
+                  <div class="modal fade" id="sbp" tabindex="-1" role="dialog" aria-labelledby="sbpLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="sbpLabel">Get a price quote</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <%= form_for(:user) do |f| %>
+                              <div class="form-group">
+                                <%= f.label :name, class: 'form-control-label' %>
+                                <%= f.text_field :name, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= f.label :email, class: 'form-control-label' %>
+                                <%= f.email_field :email, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= f.label :message, class: 'form-control-label' %>
+                                <%= f.text_area :message, class: 'form-control' %>
+                              </div>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <%= f.submit "Send message", class: 'btn btn-primary' %>
+                              </div>
+                          <% end %>
+                          </div>
+                    </div>
+                  </div>
                 </div>
               </div>
           </div>
@@ -155,7 +223,41 @@
                   <li class="list-group-item">Accept Multiple Payments</li>
                 </ul>
                 <div class="card-block">
-                   <button type="button" class="btn btn-danger btn-lg btn-block">$200</button>
+                   <button type="button" class="btn btn-danger btn-lg btn-block"
+                           data-toggle="modal" data-target="#cp">$200</button>
+                  <div class="modal fade" id="cp" tabindex="-1" role="dialog" aria-labelledby="cpLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="cpLabel">Get a price quote</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <%= form_for(:user) do |f| %>
+                              <div class="form-group">
+                                <%= f.label :name, class: 'form-control-label' %>
+                                <%= f.text_field :name, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= f.label :email, class: 'form-control-label' %>
+                                <%= f.email_field :email, class: 'form-control' %>
+                              </div>
+                              <div class="form-group">
+                                <%= f.label :message, class: 'form-control-label' %>
+                                <%= f.text_area :message, class: 'form-control' %>
+                              </div>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <%= f.submit "Send message", class: 'btn btn-primary' %>
+                              </div>
+                          <% end %>
+                          </div>
+                    </div>
+                  </div>
                 </div>
               </div>
           </div>
