@@ -23,6 +23,14 @@ $rwd-li: 85px;
 		background-color: white;
 	}
 
+    @media (min-width: 501px) and (max-width: 749px) {
+        background-color: #000;
+    }
+
+    @media (min-width: 750px) and (max-width: 950px) {
+        background-color: #000;
+    }
+
 	.company-num {
 		height: 40px;
 		line-height: 40px;
@@ -33,13 +41,30 @@ $rwd-li: 85px;
 			color: #000;
 		}
 
+        @media (min-width: 501px) and (max-width: 749px) {
+
+        }
+
+        @media (min-width: 750px) and (max-width: 950px) {
+
+        }
+
 		.contact-brands {
 		width: 20px;
 		height: 20px;
 		margin-left: 10px;
-			@media (max-width: 500px) {
 
-			}
+          @media (max-width: 500px) {
+
+          }
+
+          @media (min-width: 501px) and (max-width: 749px) {
+
+          }
+
+          @media (min-width: 750px) and (max-width: 950px) {
+
+          }
 		}	
 	}
 }
@@ -62,6 +87,14 @@ $rwd-li: 85px;
 		float: none;
 	}
 
+    @media (min-width: 501px) and (max-width: 749px) {
+        width: 25%;
+    }
+
+    @media (min-width: 750px) and (max-width: 950px) {
+
+  }
+
 	h2 {
 		font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 		line-height: 100px;
@@ -71,7 +104,15 @@ $rwd-li: 85px;
 			line-height: 50px;
 			text-align: center;
 			margin-left: 0;
-		}	
+		}
+
+        @media (min-width: 501px) and (max-width: 749px) {
+            margin-left: 0;
+        }
+
+        @media (min-width: 750px) and (max-width: 950px) {
+
+        }
 	}
 }
 
@@ -87,6 +128,14 @@ $rwd-li: 85px;
 		background: #000;
 	}
 
+    @media (min-width: 501px) and (max-width: 749px) {
+        width: 75%;
+    }
+
+    @media (min-width: 750px) and (max-width: 950px) {
+
+    }
+
 	ul {
 
 		li {
@@ -100,6 +149,14 @@ $rwd-li: 85px;
 				text-align: center;
 
 			}
+
+            @media (min-width: 501px) and (max-width: 749px) {
+
+            }
+
+            @media (min-width: 750px) and (max-width: 950px) {
+
+            }
 
 			a {
 				padding-bottom: 30px;
@@ -120,6 +177,14 @@ $rwd-li: 85px;
 					line-height: 0;
 					font-size: 1em;
 					text-align: center;
+
+                  @media (min-width: 501px) and (max-width: 749px) {
+
+                  }
+
+                  @media (min-width: 750px) and (max-width: 950px) {
+
+                  }
 				}
 
 				&:link, &:visited {
@@ -128,11 +193,31 @@ $rwd-li: 85px;
 					@media (max-width: 500px) {
 						color: #ccc;
 					}
+
+                    @media (min-width: 501px) and (max-width: 749px) {
+
+                    }
+
+                    @media (min-width: 750px) and (max-width: 950px) {
+
+                    }
 				}
 
 				&:hover, &:active {
 					color: #68A2D2;
 					text-decoration: none;
+
+                    @media (max-width: 500px) {
+
+                    }
+
+                    @media (min-width: 501px) and (max-width: 749px) {
+
+                    }
+
+                    @media (min-width: 750px) and (max-width: 950px) {
+
+                    }
 
 				}
 			}
