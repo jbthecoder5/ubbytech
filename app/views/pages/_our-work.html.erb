@@ -1,0 +1,28 @@
+<div class="jumbotron">
+  <div class="container-fluid">
+    <h2 class="txt-center">Our Work</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+          <%= image_tag("blognshow.png", class: 'our-work-pics', alt: 'blog and show') %>
+          <div class="card-block">
+            <h4 class="card-title">Blog N Show</h4>
+            <p class="card-text">A blog-based web application built using ruby on rails and other web technologies.</p>
+            <%= link_to "Check out Demo", "https://blognshow.herokuapp.com/", class: 'btn btn-primary' %>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+          <%= image_tag "vuumi.png", class: 'our-work-pics', alt: 'blog n show pic' %>
+          <div class="card-block">
+            <h4 class="card-title">VuuMi </h4>
+            <p class="card-text">A social network where users can view each others profiles and add friends.</p>
+            <%= link_to "Check out Demo", "https://vuumi.herokuapp.com/", class: 'btn btn-primary' %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
