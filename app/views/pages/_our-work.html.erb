@@ -2,6 +2,7 @@
   <div class="container-fluid">
     <h2 class="txt-center">Our Work</h2>
     <div class="row">
+
       <div class="col-md-4">
         <div class="card" style="width: 20rem;">
           <%= image_tag("blognshow.png", class: 'our-work-pics', alt: 'blog and show') %>
@@ -23,6 +24,19 @@
           </div>
         </div>
       </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 20rem;">
+          <%= image_tag "picsal.png", class: 'our-work-pics', alt: 'blog n show pic' %>
+          <div class="card-block">
+            <h4 class="card-title">Picsal </h4>
+            <p class="card-text">Just another imgur clone website that allows you anyone to upload photos, and
+              search for upload photos.</p>
+            <%= link_to "Check out Demo", "https://picsal.herokuapp.com/", class: 'btn btn-primary' %>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
