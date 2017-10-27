@@ -1,5 +1,4 @@
-
-// brand header color, font, etc variables
+/*
 
 $bh-bg: #F3F8FA;
 $bc: #000;
@@ -132,6 +131,7 @@ $rwd-li: 85px;
 	}
 }
 
+
 .brand-nav {
 	height: 100px;
 	width: 60%;
@@ -246,8 +246,7 @@ $rwd-li: 85px;
 
 
 
-
-/*   footer styling */
+// footer styling
 
 
 .btm-foot {
@@ -255,15 +254,6 @@ $rwd-li: 85px;
 	color: #fff;
 }
 
-
-
-
-
-
-
-
-
-/* misc styling for index.html.erb file */
 
 
 
@@ -328,3 +318,71 @@ $rwd-li: 85px;
   margin-bottom: 35px;
 }
 
+
+*/
+
+
+
+$fc_bg: #22284D;
+$alt_bg: #1F3965;
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	padding:0;
+}
+
+body {
+	line-height: 1.5;
+	margin: 0;
+	font-size: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	overflow-y:hidden;
+}
+
+.container {
+	text-align: center;
+	padding: 0 1em;
+	max-width: 100%;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 100%;
+	height: 100vh;
+	background-color: $fc_bg;
+}
+
+#particles-js {
+	position:absolute;
+	top:0;
+	left:0;
+	min-width:100%;
+	min-height: 100%;
+	height: 100vh;
+	width: 100vw;
+}
+
+.overlay-holder {
+	margin: 0 auto;
+}
+
+.overlay-holder h1 {
+	color: #FFF;
+	text-align: center;
+	z-index: 2;
+}
+
+.overlay-holder p {
+	color: #FFF;
+	text-align: center;
+	z-index: 2;
+}
