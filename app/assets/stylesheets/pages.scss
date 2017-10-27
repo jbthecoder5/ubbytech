@@ -344,7 +344,6 @@ body {
 	font-size: 100%;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	overflow-y:hidden;
-	background-color: red;
 }
 
 .container {
@@ -380,10 +379,13 @@ body {
 	color: #FFF;
 	text-align: center;
 	z-index: 2;
+	font-size: 2.3em;
+	font-weight: bold;
 }
 
 .overlay-holder p {
 	color: #FFF;
 	text-align: center;
 	z-index: 2;
+	font-size: 1.2em;
 }
