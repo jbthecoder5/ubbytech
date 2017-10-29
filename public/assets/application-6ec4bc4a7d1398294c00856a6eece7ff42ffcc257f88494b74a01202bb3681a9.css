@@ -14905,3 +14905,28 @@ body {
   z-index: 2;
   font-size: 1.2em;
 }
+
+/* line 87, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
+.drawing-board h1 {
+  text-align: center;
+}
+
+/* line 92, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
+.side-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 140px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 103, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
+.side-controls button {
+  background-color: blue;
+  color: #fff;
+  padding: 14px;
+  width: 100px;
+  height: 100px;
+}
