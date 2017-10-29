@@ -54,6 +54,7 @@ body {
 	min-height: 100%;
 	height: 100vh;
 	width: 100vw;
+	z-index: 3;
 }
 
 .overlay-holder {
@@ -76,34 +77,3 @@ body {
 }
 
 
-
-
-
-.drawing-board {
-
-}
-
-
-.drawing-board h1 {
-	text-align:center;
-}
-
-
-.side-controls {
-	position: absolute;
-	bottom:0;
-	right:0;
-	width: 140px;
-	height:100%;
-	padding:0;
-	margin:0;
-	
-}
-
-.side-controls button {
-	background-color: blue;
-	color: #fff;
-	padding:14px;
-	width:100px;
-	height:100px;
-}
