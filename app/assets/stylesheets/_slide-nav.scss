@@ -1,5 +1,59 @@
+nav {
+	display: block;
+}
+
+.side-nav, .side-nav ul,
+.side-nav ul li, 
+.side-nav ul li a {
+	padding:0;
+	margin: 0;
+}
+
+.side-nav
+{
+	width: 200px;
+	min-height: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background: linear-gradient(skyblue, blue);
+	text-align: center;
+}
+
+.side-nav ul {
+	list-style: none;
+}
+
+.side-nav ul li {
+	height: 75px;
+	width: 200px;
+	border-bottom: 5px solid #fff;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.side-nav ul li a {
+	text-decoration: none;
+	width:200px;
+}
 
 
-nav { 
-	background-color: green;
+input[id="nav-trigger"] {
+	display: none;
+}
+
+label[id="nav-icon"] {
+	position: absolute;
+	top:5px;
+	left:225px;
+	z-index: 5;
+	font-size: 2em;
+	color: #000;	
+}
+
+
+
+input[id="nav-trigger"]:checked {
+	background-color: red;
 }

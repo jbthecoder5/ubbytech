@@ -19,7 +19,7 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 # bootstrap 4 beta gem
-gem 'bootstrap', '~> 4.0.0.alpha6'
+# gem 'bootstrap', '~> 4.0.0.alpha6'
 
 # font-awesome gem
 gem 'font-awesome-sass', '~> 4.7.0'
