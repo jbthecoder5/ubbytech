@@ -15,8 +15,9 @@ nav {
 	min-height: 100%;
 	position: fixed;
 	top:0;
-	left:0;
-	background: linear-gradient(skyblue, blue);
+	left:-200px;
+	z-index: 5;
+	background: linear-gradient(to bottom, $nav_bg,$alt_bg 45%, $fc_bg 80%);
 	text-align: center;
 }
 
@@ -35,7 +36,9 @@ nav {
 
 .side-nav ul li a {
 	text-decoration: none;
+	color: #E7EBF1;
 	width:200px;
+	font-weight: bold;
 }
 
 
@@ -45,15 +48,62 @@ input[id="nav-trigger"] {
 
 label[id="nav-icon"] {
 	position: absolute;
-	top:5px;
-	left:225px;
+	top: 5px;
+	left: 5px;
 	z-index: 5;
 	font-size: 2em;
-	color: #000;	
+	color: #000;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-name: rot;
 }
 
 
 
-input[id="nav-trigger"]:checked {
-	background-color: red;
+// slide effects 
+
+
+#nav-trigger:checked ~ #nav-icon {
+	position: absolute;
+	top: 5px;
+	left: 225px;
+	transition: 2s;
+	animation-name: rot;
+	animation-iteration-count: 0;
 }
+
+#nav-trigger:not(:checked) ~ #nav-icon {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	transition: 2s;
+}
+
+
+#nav-trigger:checked ~ .side-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 2s;
+}
+
+#nav-trigger:not(:checked) ~ .side-nav {
+	transition: 2s;
+	position: absolute;
+	left:-200px;
+	top:0;
+}
+
+
+
+@keyframes rot {
+	0% { 
+		transform: rotate(1deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+@keyframes norot {}
