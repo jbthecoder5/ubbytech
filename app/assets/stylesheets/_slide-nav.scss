@@ -12,12 +12,12 @@ nav {
 .side-nav
 {
 	width: 200px;
-	min-height: 100%;
+	height: 100%;
 	position: fixed;
 	top:0;
 	left:-200px;
 	z-index: 5;
-	background: linear-gradient(to bottom, $nav_bg,$alt_bg 45%, $fc_bg 80%);
+	background: linear-gradient(to bottom, $nav_bg,$alt_bg 45%, $nav_bg2 80%);
 	text-align: center;
 }
 
@@ -48,11 +48,11 @@ input[id="nav-trigger"] {
 
 label[id="nav-icon"] {
 	position: absolute;
-	top: 5px;
-	left: 5px;
+	top: 10px;
+	left: 12px;
 	z-index: 5;
-	font-size: 2em;
-	color: #000;
+	font-size: 2.2em;
+	color: #fff;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease;
@@ -66,7 +66,7 @@ label[id="nav-icon"] {
 
 #nav-trigger:checked ~ #nav-icon {
 	position: absolute;
-	top: 5px;
+	top: 10px;
 	left: 225px;
 	transition: 2s;
 	animation-name: rot;
@@ -75,8 +75,8 @@ label[id="nav-icon"] {
 
 #nav-trigger:not(:checked) ~ #nav-icon {
 	position: absolute;
-	top: 5px;
-	left: 5px;
+	top: 10px;
+	left: 12px;
 	transition: 2s;
 }
 
