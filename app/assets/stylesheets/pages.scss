@@ -29,7 +29,11 @@ html {
 }
 
 
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, dialog, 
+figcaption, figure, 
+footer, header, 
+hgroup, main, 
+nav, section {
   display: block;
 }
 
@@ -40,6 +44,7 @@ body {
 	font-size:1rem;
 	line-height: 1.5;
 	text-align: left;
+  background: #D3D3D3;
 }
 
 
@@ -47,10 +52,11 @@ body {
   width: 100%;
 }
 
-.flex-container {
-  background-color: $fc_bg;
+.container-mid {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.landing-container {
+.flex-container {
 
 }

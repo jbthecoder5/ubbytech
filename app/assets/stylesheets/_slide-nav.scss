@@ -61,6 +61,25 @@ label[id="nav-icon"] {
 
 
 
+
+// hover effects
+
+
+.side-nav li:hover,
+.side-nav li:active {
+	border-bottom: 5px solid #000;
+	background: linear-gradient(to right, #ccc, #000 90%);
+}
+
+.side-nav li a:hover {
+	color: #000;
+}
+
+
+
+
+
+
 // slide effects 
 
 
@@ -97,6 +116,14 @@ label[id="nav-icon"] {
 
 
 
+
+
+
+
+
+
+// animations
+
 @keyframes rot {
 	0% { 
 		transform: rotate(1deg);
@@ -105,5 +132,3 @@ label[id="nav-icon"] {
 		transform: rotate(180deg);
 	}
 }
-
-@keyframes norot {}

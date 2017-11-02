@@ -1,14 +1,37 @@
 <div class="container">
-	<h1>Services</h1>
+	<h1 class="serv-title">Our Expertise</h1>
 
 	<!-- hovering over image displays content for area, and dissapears if
 		hovered over another image -->
 
-	<div class="serv-category-holder">
-		<img src="#" class="serv-img webdesign">
-		<img src="#" class="serv-img web-dev">
-		<img src="#" class="serv-img va">
-		<img src="#" class="serv-img seo">
+	<div class="serv-list">
+		<div class="serv-card">
+			<%= image_tag 'icons/webdesign.png', class: 'serv-img webdesign' %>
+			<div class="serv-name">
+				<h3>Web Design</h3>
+			</div>
+		</div>
+
+		<div class="serv-card">
+			<%= image_tag 'icons/development.png', class: 'serv-img web-dev' %>
+			<div class="serv-name">
+				<h3>Web Development</h3>
+			</div>
+		</div>
+
+		<div class="serv-card">
+			<%= image_tag 'icons/va.png', class: 'serv-img va' %>
+			<div class="serv-name">
+					<h3>Virtual Assistant</h3>
+			</div>
+		</div>
+
+		<div class="serv-card">
+			<%= image_tag 'icons/seo.png', class: 'serv-img seo' %>
+			<div class="serv-name">
+					<h3>SEO</h3>
+			</div>
+		</div>
 	</div>
 
 	<!-- if user clicks img, jquery script displays service description -->

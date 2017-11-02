@@ -1,0 +1,61 @@
+/*   general styling for services.css  */
+
+.container .serv-title {
+	text-align: center;
+	margin: 4rem 0;
+}
+
+
+.serv-card {
+	width: 130px;
+	margin-left: 2rem;
+}
+
+.serv-list {
+  display: flex;
+  justify-content: center;
+}
+
+.serv-img {
+	width: 100px;
+	height: 100px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.serv-name {
+	border-bottom: 3.5px solid #000;
+	box-shadow: 0 4px 0 #fff;
+}
+
+.serv-content {
+
+}
+
+
+/* specific element styling */
+
+.serv-card .serv-img {
+
+}
+
+.serv-img .webdesign {
+
+}
+
+.serv-img .web-dev {
+
+}
+
+.serv-img  .va {
+
+}
+
+.serv-img  .seo {
+
+}
+
+.serv-name h3 {
+	text-align: center;
+	font-family: Verdana, geneva, sans-serif;
+}
