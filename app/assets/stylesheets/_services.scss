@@ -9,6 +9,8 @@
 .serv-card {
 	width: 130px;
 	margin-left: 2rem;
+	border-bottom: 3.5px solid #000;
+	box-shadow: 0 4px 0 #fff;
 }
 
 .serv-list {
@@ -24,12 +26,13 @@
 }
 
 .serv-name {
-	border-bottom: 3.5px solid #000;
-	box-shadow: 0 4px 0 #fff;
+	
 }
 
 .serv-content {
-
+	width: 100%;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
 
 
@@ -39,23 +42,89 @@
 
 }
 
-.serv-img .webdesign {
-
+.serv-sect {
+	width: 850px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
 }
 
-.serv-img .web-dev {
-
+.side-serv {
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.serv-img  .va {
-
+.side-serv h3 {
+	
 }
 
-.serv-img  .seo {
+.webdesign {
+	background: #ACD085;
+}
 
+.web-dev {
+	background: #B2729B;
+}
+
+.va {
+	background: #CA5D2C;
+}
+
+.seo {
+	background: #E9EBD6;
+}
+
+.serv-description {
+	width: 600px;
+}
+
+#desc1 {
+	border-bottom: 5px solid #ACD085;
+}
+
+#desc2 {
+	border-bottom: 5px solid #B2729B;
+	border-top: 1px solid #ACD085;
+}
+
+#desc3 {
+	border-bottom: 5px solid #CA5D2C;
+	border-top: 1px solid #B2729B;
+}
+
+#desc4 {
+	border-bottom: 5px solid #E9EBD6;
+	border-top: 1px solid #CA5D2C;
 }
 
 .serv-name h3 {
 	text-align: center;
 	font-family: Verdana, geneva, sans-serif;
+}
+
+
+
+/* hovering effects */
+
+
+#card1:hover {
+	background: #ACD085;
+	cursor: crosshair;
+}
+
+#card2:hover {
+	background: #B2729B;
+	cursor: crosshair;
+}
+
+#card3:hover {
+	background: #CA5D2C;
+	cursor: crosshair;
+}
+
+#card4:hover {
+	background: #E9EBD6;
+	cursor: crosshair;
 }

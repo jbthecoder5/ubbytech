@@ -5,29 +5,29 @@
 		hovered over another image -->
 
 	<div class="serv-list">
-		<div class="serv-card">
-			<%= image_tag 'icons/webdesign.png', class: 'serv-img webdesign' %>
+		<div class="serv-card" id="card1">
+			<%= image_tag 'icons/webdesign.png', class: 'serv-img' %>
 			<div class="serv-name">
 				<h3>Web Design</h3>
 			</div>
 		</div>
 
-		<div class="serv-card">
-			<%= image_tag 'icons/development.png', class: 'serv-img web-dev' %>
+		<div class="serv-card" id="card2">
+			<%= image_tag 'icons/development.png', class: 'serv-img' %>
 			<div class="serv-name">
 				<h3>Web Development</h3>
 			</div>
 		</div>
 
-		<div class="serv-card">
-			<%= image_tag 'icons/va.png', class: 'serv-img va' %>
+		<div class="serv-card" id="card3">
+			<%= image_tag 'icons/va.png', class: 'serv-img' %>
 			<div class="serv-name">
-					<h3>Virtual Assistant</h3>
+					<h3>Virtual Assistance</h3>
 			</div>
 		</div>
 
-		<div class="serv-card">
-			<%= image_tag 'icons/seo.png', class: 'serv-img seo' %>
+		<div class="serv-card" id="card4">
+			<%= image_tag 'icons/seo.png', class: 'serv-img' %>
 			<div class="serv-name">
 					<h3>SEO</h3>
 			</div>
@@ -37,20 +37,81 @@
 	<!-- if user clicks img, jquery script displays service description -->
 
 	<div class="serv-content">
-		<div class="serv-sect1" id="serv1">
-			
+
+		<div class="serv-sect" id="serv1">
+			<div class="side-serv webdesign">
+				<h3>Web Design</h3>
+			</div>
+
+			<div class="serv-description" id="desc1">
+				<p>If you business needs a logo custom made, a responsive website that works on all screen sizes, or you need special custom made wireframes and prototypes for website then we can assist. We use Adobe Creative Cloud software and other modern software for web design.</p>
+				<ul>
+					<li>Logo Design & Branding</li>
+					<li>Responsive Web Design</li>
+					<li>Wireframing & Prototyping</li>
+					<li>Landing Page Design</li>
+				</ul>
+			</div>
 		</div>
 
-		<div class="serv-sect2" id="serv2">
+		<div class="serv-sect" id="serv2">
+			<div class="side-serv web-dev">
+				<h3>Web Development</h3>
+			</div>
 
+			<div class="serv-description" id="desc2">
+				<p>Custom websites built with latest and modern web technologies.
+				We make it sure that our clients websites are secure, responsive
+				mobile devices and small screens, and incorporating modern UI/UX
+				standards.</p>
+				<ul>
+					<li>Front-end & Back-end Development</li>
+					<li>Restful API Design</li>
+					<li>Social Media Integration</li>
+					<li>User Signin & Authentication</li>
+					<li>eCommerce/Shopping cart integration</li>
+					<li>Paypal Integration</li>
+					<li>Stripe Integration</li>
+				</ul>
+			</div>
 		</div>
 
-		<div class="serv-sect3" id="serv3">
+		<div class="serv-sect" id="serv3">
+			<div class="side-serv va">
+				<h3>Virtual Assistance</h3>
+			</div>
 
+			<div class="serv-description" id="desc3">
+				<p>Assisting our clients remotely is something we excel at. Whether you in need of a personal assistant, someone to manage you social media accounts, or someone to lighten the load we're here to assist. We use the following software to assist our clients. </p>
+				<ul>
+					<li>Data Entry</li>
+					<li>Manage Social Media Account</li>
+					<li>Book Travel Plans</li>
+					<li>Pay Bills</li>
+					<li>Manage inbox/emails</li>
+					<li>Schedule Meetings</li>
+				</ul>
+			</div>
 		</div>
 
-		<div class="serv-sect4" id="serv4">
+		<div class="serv-sect" id="serv4">
+			<div class="side-serv seo">
+				<h3>SEO</h3>
+			</div>
 
+			<div class="serv-description" id="desc4">
+				<p>When it comes to page ranking, getting your site on google
+				we're the team for the job. We use a wide variety of software 
+				and technologies such as google adwords, google analytics, and 
+				much more to help our clients reach their targeted results for
+				a higher page rank and increase in web traffic.</p>
+				<ul>
+					<li>Google Adwords</li>
+					<li>Google Analytics</li>
+					<li>Page Rank increase</li>
+					<li>Meta web crawling scripts</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
