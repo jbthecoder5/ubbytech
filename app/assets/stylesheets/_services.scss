@@ -43,6 +43,7 @@
 }
 
 .serv-sect {
+	height: 400px;
 	width: 850px;
 	margin: 0 auto;
 	display: flex;
@@ -78,6 +79,10 @@
 
 .serv-description {
 	width: 600px;
+}
+
+.serv-description p {
+	padding: 1rem;
 }
 
 #desc1 {
