@@ -3836,7 +3836,33 @@ label[id="nav-icon"] {
   animation-name: rot;
 }
 
-/* line 67, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/*.company-icon {
+	background-image: url(asset-path("icons/ubbytech_icon.png"));
+	background-size: cover;
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 10px;
+	left: 12px;
+	z-index: 5;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-name: rot;
+}*/
+/* line 81, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+.side-nav li:hover,
+.side-nav li:active {
+  border-bottom: 5px solid #000;
+  background: linear-gradient(to right, #ccc, #000 90%);
+}
+
+/* line 87, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+.side-nav li a:hover {
+  color: #000;
+}
+
+/* line 99, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:checked ~ #nav-icon {
   position: absolute;
   top: 10px;
@@ -3846,7 +3872,7 @@ label[id="nav-icon"] {
   animation-iteration-count: 0;
 }
 
-/* line 76, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 108, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:not(:checked) ~ #nav-icon {
   position: absolute;
   top: 10px;
@@ -3854,7 +3880,7 @@ label[id="nav-icon"] {
   transition: 2s;
 }
 
-/* line 84, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 116, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:checked ~ .side-nav {
   position: absolute;
   top: 0;
@@ -3862,7 +3888,7 @@ label[id="nav-icon"] {
   transition: 2s;
 }
 
-/* line 91, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 123, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:not(:checked) ~ .side-nav {
   transition: 2s;
   position: absolute;
@@ -3878,6 +3904,223 @@ label[id="nav-icon"] {
     transform: rotate(180deg);
   }
 }
+/*   general styling for services.css  */
+/* line 3, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.container .serv-title {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+/* line 9, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-card {
+  width: 130px;
+  margin-left: 2rem;
+  border-bottom: 3.5px solid #000;
+  box-shadow: 0 4px 0 #fff;
+}
+
+/* line 16, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 21, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* line 32, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* specific element styling */
+/* line 45, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-sect {
+  height: 400px;
+  width: 850px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 53, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.side-serv {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 64, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.webdesign {
+  background: #ACD085;
+}
+
+/* line 68, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.web-dev {
+  background: #B2729B;
+}
+
+/* line 72, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.va {
+  background: #CA5D2C;
+}
+
+/* line 76, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.seo {
+  background: #E9EBD6;
+}
+
+/* line 80, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-description {
+  width: 600px;
+}
+
+/* line 84, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-description p {
+  padding: 1rem;
+}
+
+/* line 88, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#desc1 {
+  border-bottom: 5px solid #ACD085;
+}
+
+/* line 92, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#desc2 {
+  border-bottom: 5px solid #B2729B;
+  border-top: 1px solid #ACD085;
+}
+
+/* line 97, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#desc3 {
+  border-bottom: 5px solid #CA5D2C;
+  border-top: 1px solid #B2729B;
+}
+
+/* line 102, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#desc4 {
+  border-bottom: 5px solid #E9EBD6;
+  border-top: 1px solid #CA5D2C;
+}
+
+/* line 107, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-name h3 {
+  text-align: center;
+  font-family: Verdana, geneva, sans-serif;
+}
+
+/* hovering effects */
+/* line 117, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#card1:hover {
+  background: #ACD085;
+  cursor: crosshair;
+}
+
+/* line 122, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#card2:hover {
+  background: #B2729B;
+  cursor: crosshair;
+}
+
+/* line 127, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#card3:hover {
+  background: #CA5D2C;
+  cursor: crosshair;
+}
+
+/* line 132, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+#card4:hover {
+  background: #E9EBD6;
+  cursor: crosshair;
+}
+
+/* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec1 {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* line 9, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec2 {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #62654D;
+}
+
+/* line 18, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec3 {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* line 26, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec4 {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #62654D;
+}
+
+/* line 35, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-logo {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* line 42, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec1 h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* line 47, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec2 h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* line 52, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec3 h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* line 57, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec4 h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* line 62, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_about.scss */
+.about-sec1 p {
+  width: 50%;
+  text-align: justify;
+  margin: 0 auto;
+  font-family: geneva, sans-serif;
+  font-size: 1.2rem;
+}
+
 /* line 16, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
 *,
 *::before,
@@ -3896,25 +4139,31 @@ html {
 }
 
 /* line 32, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, dialog,
+figcaption, figure,
+footer, header,
+hgroup, main,
+nav, section {
   display: block;
 }
 
-/* line 37, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
+/* line 41, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
+  background: #FFF;
 }
 
-/* line 46, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
+/* line 51, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
 .container {
   width: 100%;
 }
 
-/* line 50, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-.flex-container {
-  background-color: #22284D;
+/* line 55, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
+.container-mid {
+  width: 80%;
+  margin: 0 auto;
 }
