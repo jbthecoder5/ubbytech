@@ -11,14 +11,15 @@ nav {
 
 .side-nav
 {
-	width: 200px;
+	width: 203px;
 	height: 100%;
-	position: fixed;
+	position: absolute;
 	top:0;
-	left:-200px;
+	left:-203px;
 	z-index: 5;
 	background: linear-gradient(to bottom, $nav_bg,$alt_bg 45%, $nav_bg2 80%);
 	text-align: center;
+	box-shadow: 3px 3px 3px #FFF;
 }
 
 .side-nav ul {
@@ -27,7 +28,7 @@ nav {
 
 .side-nav ul li {
 	height: 75px;
-	width: 200px;
+	width: 203px;
 	border-bottom: 5px solid #fff;
 	display: flex;
 	align-items: center;
@@ -37,7 +38,7 @@ nav {
 .side-nav ul li a {
 	text-decoration: none;
 	color: #E7EBF1;
-	width:200px;
+	width:203px;
 	font-weight: bold;
 }
 
@@ -99,7 +100,7 @@ label[id="nav-icon"] {
 #nav-trigger:checked ~ #nav-icon {
 	position: absolute;
 	top: 10px;
-	left: 225px;
+	left: 228px;
 	transition: 2s;
 	animation-name: rot;
 	animation-iteration-count: 0;
@@ -123,7 +124,7 @@ label[id="nav-icon"] {
 #nav-trigger:not(:checked) ~ .side-nav {
 	transition: 2s;
 	position: absolute;
-	left:-200px;
+	left:-203px;
 	top:0;
 }
 
