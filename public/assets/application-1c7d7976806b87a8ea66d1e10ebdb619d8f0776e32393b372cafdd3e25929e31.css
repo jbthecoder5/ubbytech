@@ -3753,6 +3753,7 @@
 /* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
 #particles-js {
   background: #22284D;
+  /* skyblue, orange */
   width: 100%;
   height: 100vh;
   overflow-y: hidden;
@@ -3767,6 +3768,20 @@
   z-index: 2;
   position: absolute;
   width: 100%;
+}
+
+/* line 18, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+.overlay h1 {
+  font-size: 2.3rem;
+  font-family: "Lucida" Grande, sans-serif;
+  text-shadow: 1px 1px 1px #fff;
+  font-weight: bold;
+}
+
+/* line 26, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+.overlay p {
+  font-size: 1.5rem;
+  font-family: Gill Sans Extrabold, sans-serif;
 }
 
 /* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
@@ -3784,45 +3799,46 @@ nav {
 
 /* line 12, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 .side-nav {
-  width: 200px;
+  width: 203px;
   height: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: -200px;
+  left: -203px;
   z-index: 5;
   background: linear-gradient(to bottom, #337285, #1F3965 45%, #78ADD3 80%);
   text-align: center;
+  box-shadow: 3px 3px 3px #FFF;
 }
 
-/* line 24, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 25, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 .side-nav ul {
   list-style: none;
 }
 
-/* line 28, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 29, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 .side-nav ul li {
   height: 75px;
-  width: 200px;
+  width: 203px;
   border-bottom: 5px solid #fff;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
-/* line 37, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 38, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 .side-nav ul li a {
   text-decoration: none;
   color: #E7EBF1;
-  width: 200px;
+  width: 203px;
   font-weight: bold;
 }
 
-/* line 45, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 46, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 input[id="nav-trigger"] {
   display: none;
 }
 
-/* line 49, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 50, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 label[id="nav-icon"] {
   position: absolute;
   top: 10px;
@@ -3850,29 +3866,29 @@ label[id="nav-icon"] {
 	animation-timing-function: ease;
 	animation-name: rot;
 }*/
-/* line 81, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 82, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 .side-nav li:hover,
 .side-nav li:active {
   border-bottom: 5px solid #000;
-  background: linear-gradient(to right, #ccc, #000 90%);
+  background: rgba(255, 255, 255, 0.8);
 }
 
-/* line 87, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 88, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 .side-nav li a:hover {
   color: #000;
 }
 
-/* line 99, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 100, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:checked ~ #nav-icon {
   position: absolute;
   top: 10px;
-  left: 225px;
+  left: 228px;
   transition: 2s;
   animation-name: rot;
   animation-iteration-count: 0;
 }
 
-/* line 108, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 109, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:not(:checked) ~ #nav-icon {
   position: absolute;
   top: 10px;
@@ -3880,7 +3896,7 @@ label[id="nav-icon"] {
   transition: 2s;
 }
 
-/* line 116, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 117, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:checked ~ .side-nav {
   position: absolute;
   top: 0;
@@ -3888,11 +3904,11 @@ label[id="nav-icon"] {
   transition: 2s;
 }
 
-/* line 123, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
+/* line 124, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 #nav-trigger:not(:checked) ~ .side-nav {
   transition: 2s;
   position: absolute;
-  left: -200px;
+  left: -203px;
   top: 0;
 }
 
@@ -4119,6 +4135,17 @@ label[id="nav-icon"] {
   margin: 0 auto;
   font-family: geneva, sans-serif;
   font-size: 1.2rem;
+}
+
+/* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+.form-layout {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 6, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+h1.contact-title {
+  text-align: center;
 }
 
 /* line 16, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
