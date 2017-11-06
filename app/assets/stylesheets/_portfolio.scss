@@ -1,0 +1,129 @@
+.proj-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container .proj-title {
+	text-align: center;
+}
+
+.container .proj-sub-title {
+	text-align: center;
+}
+
+.project {
+	width: 50%;	
+}
+
+.proj1 {
+	background: linear-gradient(55deg, #CD8943, #D0C080);
+	height: auto;
+	padding: 1.5rem;
+}
+
+.proj2 {
+	background: linear-gradient(55deg, #E9EE90, #ADD057);
+	height: auto;
+	padding: 1.5rem;
+}
+
+.proj3 {
+	background: linear-gradient(55deg, #79DF5B, #61F7B5);
+	height: auto;
+	padding: 1.5rem;
+}
+
+.proj4 {
+	background: linear-gradient(55deg, #CD8943, red);
+	height: auto;
+	padding: 1.5rem;
+}
+
+.proj5 {
+	background: linear-gradient(55deg, #2DBB96, #4260A3);
+	height: auto;
+	padding: 1.5rem;
+}
+
+.proj-bg1 {
+	background: url(asset-path('projects/4.png'));
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 375px;
+}
+
+.proj-bg2 {
+	background: url(asset-path('projects/5.png'));
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 375px;
+}
+
+.proj-bg3 {
+	background: url(asset-path('projects/1.png'));
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 375px;
+}
+
+.proj-bg4 {
+	background: url(asset-path('projects/3.png'));
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 375px;
+}
+
+.proj-bg5 {
+	background: url(asset-path('projects/2.jpg'));
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 375px;
+}
+
+.proj1 h3, .proj2 h3, .proj3 h3,
+.proj4 h3, .proj5 h3 {
+	text-align: center;
+	font-family: geneva, sans-serif;
+	font-size: 1.3rem;
+	color: #fff;
+	margin-top: 3rem;
+	text-transform: uppercase;
+}
+
+
+.proj1 h1, .proj2 h1, .proj3 h1,
+.proj4 h1, .proj5 h1 {
+	text-align: center;
+	font-family: geneva, sans-serif;
+	font-size: 2.3rem;
+	color: #fff;
+	letter-spacing: .3rem;
+}
+
+.proj-btn {
+	border: 1px solid #FFF;
+	border-radius: 2.5rem;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+	width: 210px;
+	height: 45px;
+	padding: 12px;
+	margin: 2rem auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Verdana, sans-serif;
+	font-size: 0.7rem;
+	color: #000;
+	display: block;
+}
+
+.proj-btn:hover {
+	background: #FFF;
+	color: #448CC4;																																																				
+}
