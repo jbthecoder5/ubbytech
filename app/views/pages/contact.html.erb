@@ -25,42 +25,73 @@
 			<%= form_tag('/contact') do %>
 
 
-				<div class="contact-row">
+				<div class="contact-box">
 				<%= label_tag 'firstname', 'First Name', class: 'name' %>
 				<%= text_field_tag 'fullname', 'Enter your first name name', class: 'name-field' %>
 				</div>
 
-				<div class="contact-row">
+				<div class="contact-box">
 				<%= label_tag 'lastname', 'Last Name', class: 'name' %>
 				<%= text_field_tag 'fullname', 'Enter your last name here', class: 'name-field' %>
 				</div>
 
-
+				<div class="contact-box">
 				<%= label_tag 'phonenumber', 'Your Number', class: 'name' %>
 				<%= text_field_tag 'phonenumber', 'Enter your number', class: 'name-field' %>
-
-				<%= label_tag 'email', 'Email', class: 'name' %>
-				<%= text_field_tag 'email', 'Enter your email', class: 'name-field' %>
-
-
-				<%= label_tag 'entity', 'Who are you:', class: 'name' %>
-				<%= select_tag 'entity', options_for_select(["Individual",
-					"Small Business", "StartUp", "Enterprise", "Government",
-					"Private Contractor", "Non-Profit"]), class: 'name-field' %>
-
-
-				<div>
-					<%= check_box_tag 'webdesign', 'Web Design', false, class: 'name-field' %>
-					<%= check_box_tag 'webdev', 'Web Development', false, class: 'name-field' %>
-					<%= check_box_tag 'va', 'Virtual Assistant', false, class: 'name-field' %>
-					<%= check_box_tag 'seo', 'SEO', false, class: 'name-field' %>
 				</div>
 
-				<%= label_tag 'fullName', 'Your Name', class: 'name' %>
-				<%= text_field_tag 'fullname', 'Enter your name here', class: 'name-field' %>
-				<%= label_tag 'fullName', 'Your Name', class: 'name' %>
-				<%= text_field_tag 'fullname', 'Enter your name here', class: 'name-field' %>
-				<%= submit_tag 'Send', class: 'sub-btn' %>
+				<div class="contact-box">
+				<%= label_tag 'email', 'Email', class: 'name' %>
+				<%= text_field_tag 'email', 'Enter your email', class: 'name-field' %>
+				</div>
+
+
+				<div class="contact-box">
+				<%= label_tag 'entity', 'Who are you:', class: 'name' %>
+				<%= select_tag 'entity', options_for_select(["Individual",
+					"Small or Medium Business", "StartUp", "Enterprise", "Government",
+					"Private Contractor", "Non-Profit"]), class: 'name-field' %>
+				</div>
+
+
+				<div class="contact-box">
+				<%= label_tag 'budget', 'You budget', class: 'name' %>
+				<%= select_tag 'budget', options_for_select(["$0 - $250",
+					"$500 - $1000", "$1500 - $5000", "$7500 - $10,000",
+					"Different price range"]), class: 'name-field' %>
+				</div>
+
+
+				<div class="contact-service">
+					<%= check_box_tag 'webdesign', 'Web Design', false, class: 'name-field' %>
+					<%= label_tag 'webdesign', 'Web Design', class: 'name-field' %>
+
+					<%= check_box_tag 'webdev', 'Web Development', false, class: 'name-field' %>
+					<%= label_tag 'webdev', 'Web Development', class: 'name-field' %>
+					
+					<%= check_box_tag 'va', 'Virtual Assistant', false, class: 'name-field' %>
+					<%= label_tag 'va', 'Virtual Assistant', class: 'name-field' %>
+
+					<%= check_box_tag 'seo', 'SEO', false, class: 'name-field' %>
+					<%= label_tag 'seo', 'Search Engine Optimization', class: 'name-field' %>
+
+					<%= check_box_tag 'wp', 'Wireframing/Prototyping', false, class: 'name-field' %>
+					<%= label_tag 'wp', 'Wireframing/Prototyping', class: 'name-field' %>
+
+					<%= check_box_tag 'data-entry', 'Data Entry', false, class: 'name-field' %>
+					<%= label_tag 'data-entry', 'Data Entry', class: 'name-field' %>
+
+					<%= check_box_tag 'seo', 'SEO', false, class: 'name-field' %>
+					<%= label_tag 'seo', 'Search Engine Optimization', class: 'name-field' %>
+				</div>
+
+				<div class="contact-textarea">
+					<%= text_area_tag 'description', 'Comment here...', rows: '15', cols: '25', class: 'name-field' %>
+				</div>
+
+				<div class="contact-btn">
+					<%= submit_tag 'Send', class: 'sub-btn' %>
+				</div>
 			<% end %>
 		</div>
 	</div>
