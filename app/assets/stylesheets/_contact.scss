@@ -1,8 +1,86 @@
 .container-form {
 	width: 85%;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
+
+/* contact header */
 
 .contact-header {
 	background-color: #eff3f4;
 }
+
+.contact-header h1,
+.contact-header h3 {
+
+}
+
+.sub-contact-title {
+
+}
+
+.contact-title {
+
+}
+
+
+
+/* form layout */
+
+.form-layout {
+	width: 100%;
+	display: flex;
+
+}
+
+.contact-info {
+	width:  50%;
+}
+
+
+.contact-form {
+	width:  50%;
+}
+
+
+
+/* contact info */
+
+.contact-map {
+
+}
+
+.contact-locate {
+
+}
+
+.contact-sm {
+
+}
+
+
+
+
+/* contact form */
+
+
+.contact-fields {
+
+}
+
+.contact-service {
+
+}
+
+.contact-textarea {
+
+}
+
+.contact-btn {
+
+}
+
+
+
+/* specific classes */

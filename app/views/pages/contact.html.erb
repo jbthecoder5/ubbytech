@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-form">
 	<div class="contact-header">
 		<h3 class="sub-contact-title">We're here to assist</h3>
 		<h1 class="contact-title">Contact Us</h1>
@@ -12,7 +12,7 @@
 			</div>
 			
 			<div class="contact-locate">
- 
+ 				
 			</div>
 
 			<div class="contact-sm"> <!-- social media contact -->
@@ -25,28 +25,28 @@
 			<%= form_tag('/contact') do %>
 
 
-				<div class="contact-box">
+				<div class="contact-fields">
 				<%= label_tag 'firstname', 'First Name', class: 'name' %>
 				<%= text_field_tag 'fullname', 'Enter your first name name', class: 'name-field' %>
 				</div>
 
-				<div class="contact-box">
+				<div class="contact-fields">
 				<%= label_tag 'lastname', 'Last Name', class: 'name' %>
 				<%= text_field_tag 'fullname', 'Enter your last name here', class: 'name-field' %>
 				</div>
 
-				<div class="contact-box">
+				<div class="contact-fields">
 				<%= label_tag 'phonenumber', 'Your Number', class: 'name' %>
 				<%= text_field_tag 'phonenumber', 'Enter your number', class: 'name-field' %>
 				</div>
 
-				<div class="contact-box">
+				<div class="contact-fields">
 				<%= label_tag 'email', 'Email', class: 'name' %>
 				<%= text_field_tag 'email', 'Enter your email', class: 'name-field' %>
 				</div>
 
 
-				<div class="contact-box">
+				<div class="contact-fields">
 				<%= label_tag 'entity', 'Who are you:', class: 'name' %>
 				<%= select_tag 'entity', options_for_select(["Individual",
 					"Small or Medium Business", "StartUp", "Enterprise", "Government",
@@ -54,7 +54,7 @@
 				</div>
 
 
-				<div class="contact-box">
+				<div class="contact-fields">
 				<%= label_tag 'budget', 'You budget', class: 'name' %>
 				<%= select_tag 'budget', options_for_select(["$0 - $250",
 					"$500 - $1000", "$1500 - $5000", "$7500 - $10,000",
