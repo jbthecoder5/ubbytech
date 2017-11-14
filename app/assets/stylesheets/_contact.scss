@@ -1,5 +1,5 @@
 .container-form {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
@@ -13,7 +13,10 @@ iframe {
 
 .contact-header {
 	background-color: #eff3f4;
-	padding-top: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 250px;
 }
 
 .contact-header h1,
@@ -36,19 +39,36 @@ iframe {
 /* form layout */
 
 .form-layout {
-	width: 100%;
+	width: 95%;
+	margin: 0 auto;
 	display: flex;
+	border: 1px solid #000;
 }
 
 .contact-info {
-	width:  37%;
-	border: 1px solid yellow;
+	width:  30%;
 }
 
 
 .contact-form {
-	width:  63%;
-	border: 1px solid #000;
+	width:  70%;
+	border-left: 1px solid #000;	
+}
+
+.contact-input {
+	padding: 0.8rem;
+	margin-bottom: 1rem;
+	width: 250px;
+	outline-color: none;
+}
+
+.contact-input[value="Enter first name"] {
+	color:  #ccc;
+}
+
+.contact-input:active,
+.contact-input:focus {
+	/*border-color: red; */
 }
 
 
@@ -56,7 +76,7 @@ iframe {
 /* contact info */
 
 .contact-map {
-	width: 250px;
+	width: 100%;
 	height: 200px;
 }
 
@@ -78,20 +98,9 @@ iframe {
 	flex-direction: row;
 }
 
-.form-col1 {
-	display: flex;
-	flex-direction: column;
-}
-
-.form-col2 {
-	display: flex;
-	flex-direction: column;
-}
-
 .contact-fields {
 	display: flex;
 	flex-direction: column;
-	width: 50%;
 }
 
 .contact-service {
@@ -99,10 +108,21 @@ iframe {
 }
 
 .contact-textarea {
-	width: 100%;
+	display: flex;
+	
 }
 
 .contact-btn {
+	padding-top: 1rem;
+}
+
+.sub-btn {
+	outline: none;
+	border: none;
+	padding: 1.1rem 2.5rem;
+	font-family: verdana, sans-serif;
+	background: #448CC4;
+	color:  #FFF;
 
 }
 
