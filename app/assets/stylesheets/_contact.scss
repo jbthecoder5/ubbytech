@@ -5,16 +5,25 @@
 	box-sizing: border-box;
 }
 
+.form-layout {
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+	display: flex;
+	border: 1px solid #BEBEBE;
+}
+
+
 iframe {
 	display: block;
 }
+
+
 
 /* contact header */
 
 .contact-header {
 	background-color: #eff3f4;
-	padding: 0;
-	margin: 0;
 	width: 100%;
 	height: 250px;
 }
@@ -36,23 +45,27 @@ iframe {
 
 
 
-/* form layout */
 
-.form-layout {
-	width: 95%;
-	margin: 0 auto;
-	display: flex;
-	border: 1px solid #000;
-}
+/* contact info */
+
 
 .contact-info {
 	width:  30%;
+	height: 450px;
 }
 
+.contact-map {
+	width: 100%;
+	height: 200px;
+}
+
+.contact-locate {
+	height: 200px;
+}
 
 .contact-form {
 	width:  70%;
-	border-left: 1px solid #000;	
+	border-left: 1px solid #BEBEBE;	
 }
 
 .contact-input {
@@ -62,30 +75,29 @@ iframe {
 	outline-color: none;
 }
 
-.contact-input[value="Enter first name"] {
-	color:  #ccc;
+.contact-locate p {
+	padding-left: 0.5rem;
+	padding-bottom: 0.3rem;
 }
 
-.contact-input:active,
-.contact-input:focus {
-	/*border-color: red; */
+.contact-locate p:first-child {
+	padding-top: 1rem;
 }
 
-
-
-/* contact info */
-
-.contact-map {
-	width: 100%;
-	height: 200px;
-}
-
-.contact-locate {
-
+.contact-locate a {
+	text-decoration: none;
 }
 
 .contact-sm {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
 
+.sm-img {
+	width: 48px;
+	height: 48px;
 }
 
 
@@ -96,24 +108,41 @@ iframe {
 .form-row {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+}
+
+.contact-label {
+	font-family: sans-serif;
+	font-size: 0.9em;
+	font-weight: bolder;
+	color: #7A7A7A;
+	text-transform: uppercase;
 }
 
 .contact-fields {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	margin: 1.7rem 1.7rem;
 }
 
-.contact-service {
-
-}
-
-.contact-textarea {
+.textarea-wrap {
+	width: 100%;
 	display: flex;
-	
+	justify-content: center;
+}
+
+.textarea-wrap .ta-field {
+	width: 65%;
+	height: 10rem;
 }
 
 .contact-btn {
 	padding-top: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .sub-btn {

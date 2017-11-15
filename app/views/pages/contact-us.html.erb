@@ -1,9 +1,9 @@
-<div class="contact-header">
+<div class="container-form">
+	<div class="contact-header">
 		<h3 class="sub-contact-title">We're here to assist</h3>
 		<h1 class="contact-title">Contact Us</h1>
-</div>
-
-<div class="container-form">
+	</div>
+	
 	<div class="form-layout">
 		<div class="contact-info">
 			<iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27405770525!2d-118.69192047471653!3d34.02016130653294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+CA!5e0!3m2!1sen!2sus!4v1509894797478" frameborder="0" style="border:0" allowfullscreen>
@@ -17,9 +17,21 @@
 			</div>
 
 			<div class="contact-sm"> <!-- social media contact -->
-				<%#= image_tag(''), class: '' %>
-				<%#= image_tag(''), class: '' %>
-				<%#= image_tag(''), class: '' %>
+				<%= link_to 'https://www.linkedin.com/company/18328586/' do %>
+					<%= image_tag 'icons/linkedin.png', class: 'sm-img' %>
+				<% end %>
+				
+				<%= link_to 'https://instagram.com/ubbytech' do %>
+					<%= image_tag 'icons/instagram.png', class: 'sm-img' %>
+				<% end %>
+
+				<%= link_to 'https://twitter.com/ubbytech' do %>
+					<%= image_tag 'icons/twitter.png', class: 'sm-img' %>
+				<% end %>
+
+				<%= link_to 'https://www.facebook.com/ubbytech' do %>
+					<%= image_tag 'icons/facebook.png', class: 'sm-img' %>
+				<% end %>
 			</div>
 
 		</div>
@@ -28,22 +40,22 @@
 			<%= form_for(:contact) do |f| %>
 				<div class="form-row">
 						<div class="contact-fields">
-							<%= f.label :firstname, 'First Name*', class: 'generic-form' %>
+							<%= f.label :firstname, 'First Name*', class: 'contact-label' %>
 							<%= f.text_field :firstname, :value => 'Enter first name', class: 'contact-input' %>
-							<%= f.label :email, 'Email*', class: 'generic-form' %>
+							<%= f.label :email, 'Email*', class: 'contact-label' %>
 							<%= f.email_field :email, :value => 'Enter email', class: 'contact-input' %>
 						</div>
 
 						<div class="contact-fields">
-							<%= f.label :lastname, 'Last Name*', class: 'generic-form' %>
+							<%= f.label :lastname, 'Last Name*', class: 'contact-label' %>
 							<%= f.text_field :lastname, :value => 'Enter last name', class: 'contact-input' %>
-							<%= f.label :phonenumber, 'Last Name*', class: 'generic-form' %>
+							<%= f.label :phonenumber, 'Phone Number*', class: 'contact-label' %>
 							<%= f.text_field :phonenumber, :value => 'Ex. (XXX)  XXX -XXXX', class: 'contact-input' %>
 						</div>
 				</div>
 
-				<div class="contact-textarea">
-					<%= text_area_tag 'description', 'Comment here...', rows: '15', cols: '25', class: 'name-field' %>
+				<div class="textarea-wrap">
+					<%= text_area_tag 'description', 'Comment here...', class: 'ta-field' %>
 				</div>
 
 				<div class="contact-btn">

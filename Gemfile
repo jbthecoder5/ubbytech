@@ -21,7 +21,7 @@ gem 'rails_12factor', group: :production
 # bootstrap 4 beta gem
 # gem 'bootstrap', '~> 4.0.0.alpha6'
 
-# font-awesome gem
+# font-awesome rails gem
 gem 'font-awesome-sass', '~> 4.7.0'
 
 
