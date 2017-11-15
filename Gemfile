@@ -22,7 +22,7 @@ gem 'rails_12factor', group: :production
 # gem 'bootstrap', '~> 4.0.0.alpha6'
 
 # font-awesome rails gem
-gem 'font-awesome-sass', '~> 4.7.0'
+gem "font-awesome-rails"
 
 
 # sendgrid gem for smtp relay
