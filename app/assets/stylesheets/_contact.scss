@@ -86,6 +86,12 @@ iframe {
 
 .contact-locate a {
 	text-decoration: none;
+	color: #000;
+}
+
+.contact-locate a:active,
+.contact-locate a:hover {
+	color: red;
 }
 
 .contact-sm {
@@ -100,6 +106,13 @@ iframe {
 	height: 48px;
 }
 
+.hq {
+
+}
+
+.our-state {
+
+}
 
 
 
@@ -122,7 +135,6 @@ iframe {
 .contact-fields {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	margin: 1.7rem 1.7rem;
 }
 

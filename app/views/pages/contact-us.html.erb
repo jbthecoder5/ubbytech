@@ -9,12 +9,15 @@
 			<iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27405770525!2d-118.69192047471653!3d34.02016130653294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+CA!5e0!3m2!1sen!2sus!4v1509894797478" frameborder="0" style="border:0" allowfullscreen>
 			</iframe>
 			
-			<div class="contact-locate">
- 				<p>U.S Headquarters</p>
- 				<p>California</p>
- 				<p><a href="tel:+16124009410">+1.626.766.4940</a></p>
-				<p><a href="mailto:ubbytech@gmail.com">sales@ubbytech.com</a></p>
-				<%= fa_icon "chevron-right", text: "Get started", right: true %>
+		<div class="contact-locate">
+ 				<p class="hq">U.S Headquarters</p>
+ 				<p class="our-state">California</p>
+ 				<%= content_tag(:p, fa_icon("map-marker", text: "Hollywood, CA, USA 90029")) %>
+ 				<%= mail_to("ubbytech@gmail.com") do %>
+ 					<%= content_tag(:p, fa_icon("envelope-o", text: "sales@ubbytech.com")) %>
+ 				<% end %>
+				<%= content_tag(:p, fa_icon("phone", text: "+1.626.766.4940")) %>
+
 			</div>
 
 			<div class="contact-sm"> <!-- social media contact -->
