@@ -26,22 +26,31 @@ iframe {
 	background-color: #eff3f4;
 	width: 100%;
 	height: 250px;
+	display: flex;
+	align-items: center;
+
+	.align-now {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+
+		.sub-contact-title {
+			font-size: 1.5rem;
+			font-family: verdana, geneva;
+			font-weight: normal;
+		}
+
+		.contact-title {
+			font-size:  3.2rem;
+			font-family: sans-serif;
+			letter-spacing: 0.7rem;
+		}
+	}
 }
 
-.contact-header h1,
-.contact-header h3 {
-	text-align: center;
-}
 
-.sub-contact-title {
-	font-size: 1.1rem;
-	font-family: verdana, geneva;
-}
 
-.contact-title {
-	font-size:  2.8rem;
-	font-family: sans-serif;
-}
 
 
 
@@ -78,10 +87,20 @@ iframe {
 .contact-locate p {
 	padding-left: 0.5rem;
 	padding-bottom: 0.3rem;
+	text-align: center;
 }
 
 .contact-locate p:first-child {
 	padding-top: 1rem;
+}
+
+.hq {
+	color: #285E85;
+	font-weight: bolder;
+}
+
+.our-state {
+
 }
 
 .contact-locate a {
