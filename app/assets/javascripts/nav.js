@@ -1,10 +1,10 @@
 document.addEventListener("turbolinks:load", function() {
 
-  console.log("Loading service.js");
+  console.log("Loading nav.js");
 
     $(function() {
 
-        var $sidebar   = $("#side-nav"), 
+        var $sidebar   = $("#side-nav"),
             $nav_icon  = $("#nav-icon"),
             $window    = $(window),
             offset     = $sidebar.offset(),
@@ -36,6 +36,6 @@ document.addEventListener("turbolinks:load", function() {
                 });
             }
         });
-        
+
     });
 });

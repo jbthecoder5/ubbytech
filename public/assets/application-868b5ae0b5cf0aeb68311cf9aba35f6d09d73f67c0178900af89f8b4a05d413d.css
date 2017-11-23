@@ -3755,6 +3755,59 @@
   clip: auto;
 }
 
+/* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_reset.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* line 7, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_reset.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 22, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_reset.scss */
+article, aside, dialog,
+figcaption, figure,
+footer, header,
+hgroup, main,
+nav, section {
+  display: block;
+}
+
+/* line 31, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_reset.scss */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  background: #FFF;
+}
+
+/* line 41, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_reset.scss */
+.container {
+  width: 100%;
+}
+
+/* line 45, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_reset.scss */
+.container-mid {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
 #particles-js {
   background: #22284D;
@@ -3774,17 +3827,15 @@
   position: absolute;
   width: 100%;
 }
-
-/* line 18, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
-.overlay h1 {
+/* line 17, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+.overlay .overlay h1 {
   font-size: 2.3rem;
   font-family: "Lucida" Grande, sans-serif;
   text-shadow: 1px 1px 1px #fff;
   font-weight: bold;
 }
-
-/* line 26, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
-.overlay p {
+/* line 25, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+.overlay .overlay p {
   font-size: 1.5rem;
   font-family: Gill Sans Extrabold, sans-serif;
 }
@@ -4323,51 +4374,54 @@ iframe {
   background-color: #eff3f4;
   width: 100%;
   height: 250px;
+  display: flex;
+  align-items: center;
 }
-
-/* line 31, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
-.contact-header h1,
-.contact-header h3 {
+/* line 32, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+.contact-header .align-now {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  width: 100%;
 }
-
-/* line 36, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
-.sub-contact-title {
-  font-size: 1.1rem;
+/* line 38, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+.contact-header .align-now .sub-contact-title {
+  font-size: 1.5rem;
   font-family: verdana, geneva;
+  font-weight: normal;
 }
-
-/* line 41, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
-.contact-title {
-  font-size: 2.8rem;
+/* line 44, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+.contact-header .align-now .contact-title {
+  font-size: 3.2rem;
   font-family: sans-serif;
+  letter-spacing: 0.7rem;
 }
 
 /* contact info */
-/* line 52, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 61, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-info {
   width: 30%;
   height: 450px;
 }
 
-/* line 57, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 66, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-map {
   width: 100%;
   height: 200px;
 }
 
-/* line 62, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 71, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-locate {
   height: 200px;
 }
 
-/* line 66, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 75, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-form {
   width: 70%;
   border-left: 1px solid #BEBEBE;
 }
 
-/* line 71, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 80, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-input {
   padding: 0.8rem;
   margin-bottom: 1rem;
@@ -4375,30 +4429,37 @@ iframe {
   outline-color: none;
 }
 
-/* line 78, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 87, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-locate p {
   padding-left: 0.5rem;
   padding-bottom: 0.3rem;
+  text-align: center;
 }
 
-/* line 83, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 93, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-locate p:first-child {
   padding-top: 1rem;
 }
 
-/* line 87, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 97, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+.hq {
+  color: #285E85;
+  font-weight: bolder;
+}
+
+/* line 106, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-locate a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 92, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 111, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-locate a:active,
 .contact-locate a:hover {
   color: red;
 }
 
-/* line 97, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 116, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-sm {
   width: 100%;
   height: 50px;
@@ -4406,21 +4467,21 @@ iframe {
   justify-content: space-evenly;
 }
 
-/* line 104, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 123, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .sm-img {
   width: 48px;
   height: 48px;
 }
 
 /* contact form */
-/* line 121, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 140, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .form-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-/* line 127, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 146, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-label {
   font-family: sans-serif;
   font-size: 0.9em;
@@ -4429,27 +4490,27 @@ iframe {
   text-transform: uppercase;
 }
 
-/* line 135, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 154, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-fields {
   display: flex;
   flex-direction: column;
   margin: 1.7rem 1.7rem;
 }
 
-/* line 141, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 160, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .textarea-wrap {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-/* line 147, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 166, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .textarea-wrap .ta-field {
   width: 65%;
   height: 10rem;
 }
 
-/* line 152, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 171, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .contact-btn {
   padding-top: 1rem;
   margin-bottom: 1rem;
@@ -4458,7 +4519,7 @@ iframe {
   justify-content: center;
 }
 
-/* line 160, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
+/* line 179, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
 .sub-btn {
   outline: none;
   border: none;
@@ -4469,55 +4530,3 @@ iframe {
 }
 
 /* specific classes */
-/* line 16, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* line 22, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 27, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* line 37, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-article, aside, dialog,
-figcaption, figure,
-footer, header,
-hgroup, main,
-nav, section {
-  display: block;
-}
-
-/* line 46, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-body {
-  margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-align: left;
-  background: #FFF;
-}
-
-/* line 56, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-.container {
-  width: 100%;
-}
-
-/* line 60, /home/joseph/Documents/ubbytech/app/assets/stylesheets/pages.scss */
-.container-mid {
-  width: 80%;
-  margin: 0 auto;
-}

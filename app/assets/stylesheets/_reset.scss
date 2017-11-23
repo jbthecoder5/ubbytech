@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+article, aside, dialog, 
+figcaption, figure, 
+footer, header, 
+hgroup, main, 
+nav, section {
+  display: block;
+}
+
+
+body {
+	margin:0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size:1rem;
+	line-height: 1.5;
+	text-align: left;
+  background: #FFF;
+}
+
+
+.container {
+  width: 100%;
+}
+
+.container-mid {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-container {
+
+}

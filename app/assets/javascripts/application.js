@@ -2,7 +2,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require particles.min
-//= require service
+//= require nav
+//= require services
 //= require main
 //= require_tree .
-
