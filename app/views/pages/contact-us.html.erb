@@ -46,17 +46,29 @@
 				<div class="form-row">
 						<div class="contact-fields">
 							<%= f.label :firstname, 'First Name*', class: 'contact-label' %>
-							<%= f.text_field :firstname, :value => 'Enter first name', class: 'contact-input' %>
+							<%= f.text_field :firstname, class: 'contact-input' %>
 							<%= f.label :email, 'Email*', class: 'contact-label' %>
-							<%= f.email_field :email, :value => 'Enter email', class: 'contact-input' %>
+							<%= f.email_field :email, class: 'contact-input' %>
 						</div>
 
 						<div class="contact-fields">
 							<%= f.label :lastname, 'Last Name*', class: 'contact-label' %>
-							<%= f.text_field :lastname, :value => 'Enter last name', class: 'contact-input' %>
+							<%= f.text_field :lastname, class: 'contact-input' %>
 							<%= f.label :phonenumber, 'Phone Number*', class: 'contact-label' %>
-							<%= f.text_field :phonenumber, :value => 'Ex. (XXX)  XXX -XXXX', class: 'contact-input' %>
+							<%= f.text_field :phonenumber, class: 'contact-input' %>
 						</div>
+				</div>
+
+				<div class="form-row">
+					<div class="contact-fields">
+						<%= f.label :company, 'Company Name*', class: 'contact-label' %>
+						<%= f.text_field :company, class: 'contact-input' %>
+					</div>
+
+					<div class="contact-fields">
+						<%= f.label :company_type, 'Company Type*', class: 'contact-label' %>
+						<%= select_tag(:company_type, options_for_select([['Company Type*', 'Company Type*', :disabled => true], ['Individual', 'Individual'], ['Startup - Early Stage', 'Startup - Early Stage'], ['Startup - Late Stage', 'Startup - Late Stage'], ['Small or Medium-sized Business', 'Small or Medium-sized Business'], ['Enterprise', 'Enterprise'], ['Non-profit', 'Non-profit'], ['Other', 'Other']], selected: 'Company Type*' ), class: 'contact-select') %>
+					</div>
 				</div>
 
 				<div class="textarea-wrap">
