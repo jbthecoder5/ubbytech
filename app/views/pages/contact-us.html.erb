@@ -67,12 +67,21 @@
 
 					<div class="contact-fields">
 						<%= f.label :company_type, 'Company Type*', class: 'contact-label' %>
-						<%= select_tag(:company_type, options_for_select([['Company Type*', 'Company Type*', :disabled => true], ['Individual', 'Individual'], ['Startup - Early Stage', 'Startup - Early Stage'], ['Startup - Late Stage', 'Startup - Late Stage'], ['Small or Medium-sized Business', 'Small or Medium-sized Business'], ['Enterprise', 'Enterprise'], ['Non-profit', 'Non-profit'], ['Other', 'Other']], selected: 'Company Type*' ), class: 'contact-select') %>
+						<%= f.select(:company_type, options_for_select([
+							['Company Type*', 'Company Type*', :disabled => true], 
+							['Individual', 'Individual'], 
+							['Startup - Early Stage', 'Startup - Early Stage'], 
+							['Startup - Late Stage', 'Startup - Late Stage'], 
+							['Small or Medium-sized Business', 'Small or Medium-sized Business'], 
+							['Enterprise', 'Enterprise'], 
+							['Non-profit', 'Non-profit'], 
+							['Other', 'Other']], 
+							selected: 'Company Type*')) %>
 					</div>
 				</div>
 
 				<div class="textarea-wrap">
-					<%= text_area_tag 'description', 'Comment here...', class: 'ta-field' %>
+					<%= f.text_area :description, class: 'ta-field' %>
 				</div>
 
 				<div class="contact-btn">
