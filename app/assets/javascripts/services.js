@@ -1,12 +1,12 @@
 document.addEventListener("turbolinks:load", function(){
   console.log('loading service.js file');
 
-  $('#card1').click(function(){
+
+
+  $('#card1').click(function() {
     $('#serv1').css({
-      "display": 'block',
-      "margin-left": 'auto',
-      "margin-right": 'auto',
-      "width": '70%'
+      display: 'flex',
+      "justify-content": "center"
     });
 
     $('#serv2').css({
@@ -20,8 +20,7 @@ document.addEventListener("turbolinks:load", function(){
     $('#serv4').css({
       display: 'none'
     });
-
-  }); 
+  });
 
 
   $('#card2').click(function(){
@@ -30,7 +29,8 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv2').css({
-      display: 'block'
+      display: 'flex',
+      "justify-content": "center"
     });
 
     $('#serv3').css({
@@ -52,7 +52,8 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv3').css({
-      display: 'block'
+      display: 'flex',
+      "justify-content": "center"
     });
 
     $('#serv4').css({
@@ -74,8 +75,17 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv4').css({
-      display: 'block'
+      display: 'flex',
+      "justify-content": "center"
     });
   });
+
+
+
+  function hideTools() {
+    // $('#serv-tools').toggle(function(){
+
+  //});
+  }
 
 });
