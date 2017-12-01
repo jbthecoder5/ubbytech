@@ -3,7 +3,10 @@ document.addEventListener("turbolinks:load", function(){
 
   $('#card1').click(function(){
     $('#serv1').css({
-      display: 'block'
+      "display": 'block',
+      "margin-left": 'auto',
+      "margin-right": 'auto',
+      "width": '70%'
     });
 
     $('#serv2').css({
