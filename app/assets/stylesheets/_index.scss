@@ -14,15 +14,19 @@
 	position: absolute;
 	width:100%;
 
-	.overlay h1 {
-		font-size: 2.3rem;
+
+	h1 {
+		font-size: 2.6rem;
 		font-family: "Lucida" Grande, sans-serif;
 		text-shadow: 1px 1px 1px #fff;
 		font-weight: bold;
 
 	}
 
-	.overlay p {
+	p {
+		word-wrap: wrap;
+		width:50%;
+		margin: 0 auto;
 		font-size: 1.5rem;
 		font-family: Gill Sans Extrabold, sans-serif;
 	}
