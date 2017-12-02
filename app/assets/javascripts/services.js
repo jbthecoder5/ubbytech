@@ -3,10 +3,9 @@ document.addEventListener("turbolinks:load", function(){
 
 
 
-  $('#card1').click(function() {
+  $('#card1').on('click', function() {
     $('#serv1').css({
-      display: 'flex',
-      "justify-content": "center"
+      display: 'flex'
     });
 
     $('#serv2').css({
@@ -29,8 +28,7 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv2').css({
-      display: 'flex',
-      "justify-content": "center"
+      display: 'flex'
     });
 
     $('#serv3').css({
@@ -52,8 +50,7 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv3').css({
-      display: 'flex',
-      "justify-content": "center"
+      display: 'flex'
     });
 
     $('#serv4').css({
@@ -75,8 +72,7 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv4').css({
-      display: 'flex',
-      "justify-content": "center"
+      display: 'flex'
     });
   });
 
