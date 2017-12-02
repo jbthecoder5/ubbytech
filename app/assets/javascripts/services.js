@@ -77,6 +77,10 @@ document.addEventListener("turbolinks:load", function(){
   });
 
 
+  $('#expand-trigger').on('click', function(){
+    $('.tool-holder').toggleClass('hideMe');
+  });
+
 
   function hideTools() {
     // $('#serv-tools').toggle(function(){

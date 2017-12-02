@@ -40,7 +40,6 @@
 	margin-bottom: 5rem;
 
 	.serv-sect {
-		height: 400px;
 		width: 850px;
 		margin: 0 auto;
 		display: flex;
@@ -71,21 +70,32 @@
 
 				}
 			}
-		}
 
-		.serv-tools {
+			.serv-tools {
+				width: 100%;
 
-			p {
+				p {
 
-			}
+				}
 
-			.tool-wrapper {
-				display: flex;
-				justify-content: center;
+				.tool-wrapper {
+					display: flex;
+					flex-wrap: wrap;
 
-				.tool-img {
-					width: 64px;
-					height: 64px;
+					.tool-holder {
+						background: #ccc;
+
+						.tool-img {
+							width: 64px;
+
+						}
+
+						.tool-name {
+							font-size: 1.2rem;
+							text-transform: uppercase;
+							color: #a3d0ce
+						}
+					}
 				}
 			}
 		}
@@ -93,13 +103,21 @@
 }
 
 
+.expand-holder {
+	color: #ccc;
+	background: #000;
+	padding:2rem;
+}
+
+.hideMe {
+	display: none;
+	transition: 2s;
+	transition-delay: 3s;
+}
+
 
 
 /* specific classes and ids */
-
-.showMe {
-	display: block;
-}
 
 .webdesign {
 	background: #ACD085;
