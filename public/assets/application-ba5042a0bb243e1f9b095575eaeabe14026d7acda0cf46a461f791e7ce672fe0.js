@@ -11623,9 +11623,11 @@ document.addEventListener("turbolinks:load", function() {
 document.addEventListener("turbolinks:load", function(){
   console.log('loading service.js file');
 
-  $('#card1').click(function(){
+
+
+  $('#card1').on('click', function() {
     $('#serv1').css({
-      display: 'block'
+      display: 'flex'
     });
 
     $('#serv2').css({
@@ -11639,8 +11641,7 @@ document.addEventListener("turbolinks:load", function(){
     $('#serv4').css({
       display: 'none'
     });
-
-  }); 
+  });
 
 
   $('#card2').click(function(){
@@ -11649,7 +11650,7 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv2').css({
-      display: 'block'
+      display: 'flex'
     });
 
     $('#serv3').css({
@@ -11671,7 +11672,7 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv3').css({
-      display: 'block'
+      display: 'flex'
     });
 
     $('#serv4').css({
@@ -11693,9 +11694,21 @@ document.addEventListener("turbolinks:load", function(){
     });
 
     $('#serv4').css({
-      display: 'block'
+      display: 'flex'
     });
   });
+
+
+  $('#expand-trigger').on('click', function(){
+    $('.tool-holder').toggleClass('hideMe');
+  });
+
+
+  function hideTools() {
+    // $('#serv-tools').toggle(function(){
+
+  //});
+  }
 
 });
 document.addEventListener("turbolinks:load", function() {
