@@ -3,7 +3,7 @@ nav {
 }
 
 .side-nav, .side-nav ul,
-.side-nav ul li, 
+.side-nav ul li,
 .side-nav ul li a {
 	padding:0;
 	margin: 0;
@@ -20,26 +20,26 @@ nav {
 	background: linear-gradient(to bottom, $nav_bg,$alt_bg 45%, $nav_bg2 80%);
 	text-align: center;
 	box-shadow: 3px 3px 3px #FFF;
-}
 
-.side-nav ul {
-	list-style: none;
-}
+	ul {
+		list-style: none;
 
-.side-nav ul li {
-	height: 75px;
-	width: 203px;
-	border-bottom: 5px solid #fff;
-	display: flex;
-	align-items: center;
-	text-align: center;
-}
+		li {
+			height: 75px;
+			width: 203px;
+			border-bottom: 5px solid #fff;
+			display: flex;
+			align-items: center;
+			text-align: center;
 
-.side-nav ul li a {
-	text-decoration: none;
-	color: #E7EBF1;
-	width:203px;
-	font-weight: bold;
+			a {
+				text-decoration: none;
+				color: #E7EBF1;
+				width:203px;
+				font-weight: bold;
+			}
+		}
+	}
 }
 
 
@@ -58,7 +58,7 @@ label[id="nav-icon"] {
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease;
-	animation-name: rot; 
+	animation-name: rot;
 }
 
 
@@ -95,7 +95,7 @@ label[id="nav-icon"] {
 
 
 
-// slide effects 
+// slide effects
 
 
 #nav-trigger:checked ~ #nav-icon {
@@ -140,7 +140,7 @@ label[id="nav-icon"] {
 // animations
 
 @keyframes rot {
-	0% { 
+	0% {
 		transform: rotate(1deg);
 	}
 	100% {
