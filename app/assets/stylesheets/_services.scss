@@ -1,10 +1,16 @@
+@import 'service-extras';
+
+
+
+
+
 /*   general styling for services.css  */
+
 
 .container .serv-title {
 	text-align: center;
 	margin: 4rem 0;
 }
-
 
 
 
@@ -72,111 +78,37 @@
 				}
 			}
 
-			.serv-tools {
-				width: 100%;
+			p {
 
-				p {
-
+				.expand-holder {
+					color: #000;
+					background: rgb(206, 206, 210);
+					padding:0.5rem;
+					font-size: 0.8rem;
 				}
+			}
 
-				.tool-wrapper {
-					display: flex;
-					flex-wrap: wrap;
+			.serv-tools {
 
 					.tool-holder {
-						background: #ccc;
 
 						.tool-img {
-							width: 64px;
 
 						}
 
 						.tool-name {
-							font-size: 1.2rem;
-							text-transform: uppercase;
-							color: #a3d0ce
+
 						}
 					}
-				}
 			}
 		}
 	}
 }
 
 
-.expand-holder {
-	color: #ccc;
-	background: #000;
-	padding:2rem;
-}
 
 .hideMe {
 	display: none;
 	transition: 2s;
 	transition-delay: 3s;
-}
-
-
-
-/* specific classes and ids */
-
-.webdesign {
-	background: #ACD085;
-}
-
-.web-dev {
-	background: #B2729B;
-}
-
-.va {
-	background: #CA5D2C;
-}
-
-.seo {
-	background: #E9EBD6;
-}
-
-
-
-#desc1 {
-	border-bottom: 5px solid #ACD085;
-}
-
-#desc2 {
-	border-bottom: 5px solid #B2729B;
-	border-top: 1px solid #ACD085;
-}
-
-#desc3 {
-	border-bottom: 5px solid #CA5D2C;
-	border-top: 1px solid #B2729B;
-}
-
-#desc4 {
-	border-bottom: 5px solid #E9EBD6;
-	border-top: 1px solid #CA5D2C;
-}
-
-
-/* specific hovering effects */
-
-
-#card1:hover {
-	background: #ACD085;
-	cursor: crosshair;
-}
-
-#card2:hover {
-	background: #B2729B;
-	cursor: crosshair;
-}
-
-#card3:hover {
-	background: #CA5D2C;
-	cursor: crosshair;
-}
-
-#card4:hover {
-	background: #E9EBD6;
-	cursor: crosshair;
 }

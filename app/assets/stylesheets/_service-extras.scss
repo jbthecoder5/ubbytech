@@ -1,0 +1,59 @@
+/* specific classes and ids */
+
+.webdesign {
+	background: $webdesign_color;
+}
+
+.web-dev {
+	background: $webdev_color;
+}
+
+.va {
+	background: $va_color;
+}
+
+.seo {
+	background: $seo_color;
+}
+
+
+
+#desc1 {
+	border-bottom: 5px solid $webdesign_color;
+}
+
+#desc2 {
+	border-bottom: 5px solid $webdev_color;
+}
+
+#desc3 {
+	border-bottom: 5px solid $va_color;
+}
+
+#desc4 {
+	border-bottom: 5px solid $seo_color;
+}
+
+
+/* specific hovering effects */
+
+
+#card1:hover {
+	background: $webdesign_color;
+	cursor: crosshair;
+}
+
+#card2:hover {
+	background: $webdev_color;
+	cursor: crosshair;
+}
+
+#card3:hover {
+	background: $va_color;
+	cursor: crosshair;
+}
+
+#card4:hover {
+	background: $seo_color;
+	cursor: crosshair;
+}

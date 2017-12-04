@@ -11623,73 +11623,40 @@ document.addEventListener("turbolinks:load", function() {
 document.addEventListener("turbolinks:load", function(){
   console.log('loading service.js file');
 
-
-
   $('#card1').on('click', function() {
     $('#serv1').css({
       display: 'flex'
     });
 
-    $('#serv2').css({
-      display: 'none'
-    });
-
-    $('#serv3').css({
-      display: 'none'
-    });
-
-    $('#serv4').css({
+    $('#serv2, #serv3, #serv4').css({
       display: 'none'
     });
   });
 
 
   $('#card2').click(function(){
-    $('#serv1').css({
+    $('#serv1, #serv3, #serv4').css({
       display: 'none'
     });
 
     $('#serv2').css({
       display: 'flex'
-    });
-
-    $('#serv3').css({
-      display: 'none'
-    });
-
-    $('#serv4').css({
-      display: 'none'
     });
   });
 
-  $('#card3').click(function(){
-    $('#serv1').css({
-      display: 'none'
-    });
 
-    $('#serv2').css({
+  $('#card3').click(function(){
+    $('#serv1, #serv2, #serv4').css({
       display: 'none'
     });
 
     $('#serv3').css({
       display: 'flex'
-    });
-
-    $('#serv4').css({
-      display: 'none'
     });
   });
 
   $('#card4').click(function(){
-    $('#serv1').css({
-      display: 'none'
-    });
-
-    $('#serv2').css({
-      display: 'none'
-    });
-
-    $('#serv3').css({
+    $('#serv1, #serv2, #serv3').css({
       display: 'none'
     });
 
