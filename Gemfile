@@ -13,12 +13,8 @@ gem 'rails', '~> 5.0.1'
 gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
-
 gem "font-awesome-rails"
-
-
 gem 'sendgrid-ruby'
-
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -30,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 
 # new added gems
 
+gem 'hirb'
 
 
 
