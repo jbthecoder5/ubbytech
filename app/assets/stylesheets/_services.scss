@@ -42,6 +42,9 @@
 
 .serv-content {
 	width: 100%;
+	background: linear-gradient(
+		rbga(0,0,0,0.5), rgba(0,0,0,0.5)
+	);
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 
@@ -66,8 +69,10 @@
 		.serv-description {
 			width: 600px;
 
+
 			p {
 				padding: 1rem;
+				font-size: 1.15rem;
 			}
 
 			ul {
