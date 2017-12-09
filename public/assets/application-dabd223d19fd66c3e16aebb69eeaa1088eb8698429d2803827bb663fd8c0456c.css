@@ -3991,7 +3991,7 @@ label[id="nav-icon"] {
 
 /* line 15, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_service-extras.scss */
 .seo {
-  background: #E9EBD6;
+  background: #55bec8;
 }
 
 /* line 21, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_service-extras.scss */
@@ -4011,7 +4011,7 @@ label[id="nav-icon"] {
 
 /* line 33, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_service-extras.scss */
 #desc4 {
-  border-bottom: 5px solid #E9EBD6;
+  border-bottom: 5px solid #55bec8;
 }
 
 /* specific hovering effects */
@@ -4035,7 +4035,7 @@ label[id="nav-icon"] {
 
 /* line 56, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_service-extras.scss */
 #card4:hover {
-  background: #E9EBD6;
+  background: #55bec8;
   cursor: crosshair;
 }
 
@@ -4074,10 +4074,11 @@ label[id="nav-icon"] {
 /* line 43, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content {
   width: 100%;
+  background: linear-gradient(rbga(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-/* line 48, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 51, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect {
   width: 850px;
   height: 450px;
@@ -4085,26 +4086,27 @@ label[id="nav-icon"] {
   display: flex;
   flex-direction: row;
 }
-/* line 55, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 58, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect .side-serv {
   width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 66, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 69, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect .serv-description {
   width: 600px;
 }
-/* line 69, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 73, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect .serv-description p {
   padding: 1rem;
+  font-size: 1.15rem;
 }
-/* line 73, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 78, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect .serv-description ul {
   margin-left: 1.7rem;
 }
-/* line 83, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 88, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect .serv-description p .expand-holder {
   color: #000;
   background: #ceced2;
@@ -4112,7 +4114,7 @@ label[id="nav-icon"] {
   font-size: 0.8rem;
 }
 
-/* line 110, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 115, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .hideMe {
   display: none;
   transition: 2s;
@@ -4198,131 +4200,41 @@ label[id="nav-icon"] {
   font-size: 1.2rem;
 }
 
-/* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+/* line 3, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.title-wrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg #f7f7f7, #d0f6f5);
+  /*.proj-sub-title {
+  	text-align: center;
+  } */
+}
+/* line 12, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.title-wrapper .main-title {
+  width: 100%;
+}
+/* line 15, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.title-wrapper .main-title .proj-title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: verdana, sans-serif;
+  font-weight: bolder;
+}
+
+/* line 29, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
 .proj-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-
-/* line 7, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.container .proj-title {
-  text-align: center;
-}
-
-/* line 11, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.container .proj-sub-title {
-  text-align: center;
-}
-
-/* line 15, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.project {
+/* line 34, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .project {
   width: 50%;
 }
-
-/* line 19, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj1 {
-  background: linear-gradient(55deg, #CD8943, #D0C080);
-  height: auto;
-  padding: 1.5rem;
-}
-
-/* line 25, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj2 {
-  background: linear-gradient(55deg, #E9EE90, #ADD057);
-  height: auto;
-  padding: 1.5rem;
-}
-
-/* line 31, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj3 {
-  background: linear-gradient(55deg, #79DF5B, #61F7B5);
-  height: auto;
-  padding: 1.5rem;
-}
-
 /* line 37, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj4 {
-  background: linear-gradient(55deg, #CD8943, red);
-  height: auto;
-  padding: 1.5rem;
-}
-
-/* line 43, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj5 {
-  background: linear-gradient(55deg, #2DBB96, #4260A3);
-  height: auto;
-  padding: 1.5rem;
-}
-
-/* line 49, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj-bg1 {
-  background: url("/assets/projects/4-201b2fe201efc54134bbf843f2e0e6d59fe90a72f09a20affffbc9dab549e18d.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 375px;
-}
-
-/* line 57, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj-bg2 {
-  background: url("/assets/projects/5-d394f1f4b91672b9a21c77fdb432735efdaf9b5037fa08f2ba5963d9f9d1b024.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 375px;
-}
-
-/* line 65, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj-bg3 {
-  background: url("/assets/projects/1-6243048d9d558906fc0a2bafaeeae1e9a63c274980b48cee060ddaf49590df00.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 375px;
-}
-
-/* line 73, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj-bg4 {
-  background: url("/assets/projects/3-09151930e5dfd61c9e4c465f2548647e284bd160776a40f5452003b0cf677bb3.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 375px;
-}
-
-/* line 81, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj-bg5 {
-  background: url("/assets/projects/2-e3049d5906cc14cef8919dc4b409a484accada705e18a0854b6ea63cb2d77ddb.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 375px;
-}
-
-/* line 89, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj1 h3, .proj2 h3, .proj3 h3,
-.proj4 h3, .proj5 h3 {
-  text-align: center;
-  font-family: geneva, sans-serif;
-  font-size: 1.3rem;
-  color: #fff;
-  margin-top: 3rem;
-  text-transform: uppercase;
-}
-
-/* line 100, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj1 h1, .proj2 h1, .proj3 h1,
-.proj4 h1, .proj5 h1 {
-  text-align: center;
-  font-family: geneva, sans-serif;
-  font-size: 2.3rem;
-  color: #fff;
-  letter-spacing: .3rem;
-}
-
-/* line 109, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj-btn {
+.proj-container .project .proj-btn {
   border: 1px solid #FFF;
   border-radius: 2.5rem;
   background-color: Transparent;
@@ -4338,11 +4250,101 @@ label[id="nav-icon"] {
   color: #000;
   display: block;
 }
-
-/* line 126, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
-.proj-btn:hover {
+/* line 53, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .project .proj-btn:hover {
   background: #FFF;
   color: #448CC4;
+}
+/* line 60, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj1 {
+  background: linear-gradient(55deg, #CD8943, #D0C080);
+  height: auto;
+  padding: 1.5rem;
+}
+/* line 65, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj1 .proj-bg1 {
+  background: url("/assets/projects/4-201b2fe201efc54134bbf843f2e0e6d59fe90a72f09a20affffbc9dab549e18d.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 375px;
+}
+/* line 74, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj2 {
+  background: linear-gradient(55deg, #E9EE90, #ADD057);
+  height: auto;
+  padding: 1.5rem;
+}
+/* line 79, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj2 .proj-bg2 {
+  background: url("/assets/projects/5-d394f1f4b91672b9a21c77fdb432735efdaf9b5037fa08f2ba5963d9f9d1b024.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 375px;
+}
+/* line 88, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj3 {
+  background: linear-gradient(55deg, #79DF5B, #61F7B5);
+  height: auto;
+  padding: 1.5rem;
+}
+/* line 93, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj3 .proj-bg3 {
+  background: url("/assets/projects/1-6243048d9d558906fc0a2bafaeeae1e9a63c274980b48cee060ddaf49590df00.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 375px;
+}
+/* line 102, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj4 {
+  background: linear-gradient(55deg, #CD8943, red);
+  height: auto;
+  padding: 1.5rem;
+}
+/* line 107, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj4 .proj-bg4 {
+  background: url("/assets/projects/3-09151930e5dfd61c9e4c465f2548647e284bd160776a40f5452003b0cf677bb3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 375px;
+}
+/* line 116, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj5 {
+  background: linear-gradient(55deg, #2DBB96, #4260A3);
+  height: auto;
+  padding: 1.5rem;
+}
+/* line 121, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj-container .proj5 .proj-bg5 {
+  background: url("/assets/projects/2-e3049d5906cc14cef8919dc4b409a484accada705e18a0854b6ea63cb2d77ddb.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 375px;
+}
+
+/* line 132, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj1 h3, .proj2 h3, .proj3 h3,
+.proj4 h3, .proj5 h3 {
+  text-align: center;
+  font-family: geneva, sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+/* line 143, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_portfolio.scss */
+.proj1 h1, .proj2 h1, .proj3 h1,
+.proj4 h1, .proj5 h1 {
+  text-align: center;
+  font-family: geneva, sans-serif;
+  font-size: 2.3rem;
+  color: #fff;
+  letter-spacing: .3rem;
 }
 
 /* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_contact.scss */
