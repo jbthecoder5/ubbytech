@@ -4074,11 +4074,10 @@ label[id="nav-icon"] {
 /* line 43, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content {
   width: 100%;
-  background: linear-gradient(rbga(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-/* line 51, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 48, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect {
   width: 850px;
   height: 450px;
@@ -4086,35 +4085,54 @@ label[id="nav-icon"] {
   display: flex;
   flex-direction: row;
 }
-/* line 58, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 55, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect .side-serv {
   width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 69, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 66, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .serv-content .serv-sect .serv-description {
   width: 600px;
 }
-/* line 73, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
-.serv-content .serv-sect .serv-description p {
-  padding: 1rem;
-  font-size: 1.15rem;
+/* line 69, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content .serv-sect .serv-description .serv-summary {
+  width: 100%;
 }
-/* line 78, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
-.serv-content .serv-sect .serv-description ul {
-  margin-left: 1.7rem;
+/* line 72, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content .serv-sect .serv-description .serv-summary p {
+  padding-top: 0.5rem;
+  padding-left: 0.75rem;
+  font-size: 1.08rem;
 }
-/* line 88, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
-.serv-content .serv-sect .serv-description p .expand-holder {
+/* line 79, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content .serv-sect .serv-description .serv-task {
+  width: 100%;
+}
+/* line 82, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content .serv-sect .serv-description .serv-task ul {
+  width: 600px;
+  padding-top: 1rem;
+  padding-left: 1.75rem;
+}
+/* line 93, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content .serv-sect .serv-description .trigger-wrapper {
+  width: 100%;
+}
+/* line 98, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content .serv-sect .serv-description .trigger-wrapper p .expand-holder {
   color: #000;
   background: #ceced2;
   padding: 0.5rem;
   font-size: 0.8rem;
 }
+/* line 107, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+.serv-content .serv-sect .serv-description .serv-tools {
+  width: 100%;
+}
 
-/* line 115, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
+/* line 127, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_services.scss */
 .hideMe {
   display: none;
   transition: 2s;
