@@ -7,6 +7,7 @@ class ContactsController < ApplicationController
 		@contact = Contact.new(contact_params)
 
 		if @contact.save
+			ContactNotifierMailer.send_signup_email(@contact).deliver
 			redirect_to root_url
 		else
 			redirect_to contact_us_path
@@ -16,7 +17,7 @@ class ContactsController < ApplicationController
 
 	private
 		def contact_params
-			params.require(:contact).permit(:firstname, :lastname, :email, 
+			params.require(:contact).permit(:firstname, :lastname, :email,
 				:phonenumber, :company, :company_type, :description)
 		end
 end

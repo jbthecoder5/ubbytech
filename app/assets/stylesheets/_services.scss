@@ -42,9 +42,6 @@
 
 .serv-content {
 	width: 100%;
-	background: linear-gradient(
-		rbga(0,0,0,0.5), rgba(0,0,0,0.5)
-	);
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 
@@ -69,31 +66,46 @@
 		.serv-description {
 			width: 600px;
 
+			.serv-summary {
+				width: 100%;
 
-			p {
-				padding: 1rem;
-				font-size: 1.15rem;
-			}
-
-			ul {
-				margin-left: 1.7rem;
-
-				li {
-
+				p {
+					padding-top: 0.5rem;
+					padding-left: 0.75rem;
+					font-size: 1.08rem;
 				}
 			}
 
-			p {
+			.serv-task {
+				width: 100%;
 
-				.expand-holder {
-					color: #000;
-					background: rgb(206, 206, 210);
-					padding:0.5rem;
-					font-size: 0.8rem;
+				ul {
+					width: 600px;
+					padding-top: 1rem;
+					padding-left: 1.75rem;
+
+					li {
+
+					}
+				}
+			}
+
+			.trigger-wrapper {
+				width: 100%;
+
+				p {
+
+					.expand-holder {
+						color: #000;
+						background: rgb(206, 206, 210);
+						padding:0.5rem;
+						font-size: 0.8rem;
+					}
 				}
 			}
 
 			.serv-tools {
+				width: 100%;
 
 					.tool-holder {
 
