@@ -8,7 +8,7 @@ class ContactsController < ApplicationController
 
 		if @contact.save
 			ContactNotifierMailer.send_signup_email(@contact).deliver
-			redirect_to root_url
+			redirect_to root_url, notice: 'Your ticket will receive a reply within 1-4 hours.'
 		else
 			redirect_to contact_us_path
 		end
