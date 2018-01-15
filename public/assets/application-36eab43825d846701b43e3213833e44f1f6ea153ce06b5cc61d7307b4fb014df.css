@@ -3808,41 +3808,6 @@ body {
   margin: 0 auto;
 }
 
-/* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
-#particles-js {
-  background: #22284D;
-  /* skyblue, orange */
-  width: 100%;
-  height: 100vh;
-  overflow-y: hidden;
-  display: flex;
-  align-items: center;
-}
-
-/* line 10, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
-.overlay {
-  color: #fff;
-  text-align: center;
-  z-index: 2;
-  position: absolute;
-  width: 100%;
-}
-/* line 18, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
-.overlay h1 {
-  font-size: 2.6rem;
-  font-family: "Lucida" Grande, sans-serif;
-  text-shadow: 1px 1px 1px #fff;
-  font-weight: bold;
-}
-/* line 26, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
-.overlay p {
-  word-wrap: wrap;
-  width: 67%;
-  margin: 0 auto;
-  font-size: 1.5rem;
-  font-family: Gill Sans Extrabold, sans-serif;
-}
-
 /* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_slide-nav.scss */
 nav {
   display: block;
@@ -3973,6 +3938,41 @@ label[id="nav-icon"] {
     transform: rotate(180deg);
   }
 }
+/* line 1, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+#particles-js {
+  background: #22284D;
+  /* skyblue, orange */
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* line 10, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+.overlay {
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+}
+/* line 18, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+.overlay h1 {
+  font-size: 2.6rem;
+  font-family: "Lucida" Grande, sans-serif;
+  text-shadow: 1px 1px 1px #fff;
+  font-weight: bold;
+}
+/* line 26, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_index.scss */
+.overlay p {
+  word-wrap: wrap;
+  width: 67%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: Gill Sans Extrabold, sans-serif;
+}
+
 /* specific classes and ids */
 /* line 3, /home/joseph/Documents/ubbytech/app/assets/stylesheets/_service-extras.scss */
 .webdesign {
