@@ -1,9 +1,9 @@
-@import 'color_vars/color-scheme';
-@import 'reset';
-@import 'slide-nav';
-@import 'ticket-notices';
 @import 'index';
+@import 'reset';
+@import 'colors/color-scheme';
+@import 'navs/slide-nav';
 @import 'services/services';
+@import 'services/service-extras';
 @import 'about/about';
 @import 'portfolio/portfolio';
 @import 'contacts/contact';
