@@ -7,6 +7,6 @@ class ContactNotifierMailer < ApplicationMailer
   def send_signup_email(contact)
     @contact = contact
     mail( :to => @contact.email,
-    :subject => 'UbbyTech :: Your ticket hass been received')
+    :subject => 'UbbyTech Support - Your message was sent')
   end
 end
