@@ -3755,7 +3755,7 @@
   clip: auto;
 }
 
-/* line 1, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_index.scss */
+/* line 1, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_index.scss */
 #particles-js {
   background: #22284D;
   /* skyblue, orange */
@@ -3766,7 +3766,7 @@
   align-items: center;
 }
 
-/* line 10, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_index.scss */
+/* line 10, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_index.scss */
 .overlay {
   color: #fff;
   text-align: center;
@@ -3774,14 +3774,14 @@
   position: absolute;
   width: 100%;
 }
-/* line 18, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_index.scss */
+/* line 18, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_index.scss */
 .overlay h1 {
   font-size: 2.6rem;
   font-family: "Lucida" Grande, sans-serif;
   text-shadow: 1px 1px 1px #fff;
   font-weight: bold;
 }
-/* line 26, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_index.scss */
+/* line 26, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_index.scss */
 .overlay p {
   word-wrap: wrap;
   width: 67%;
@@ -3790,20 +3790,20 @@
   font-family: Gill Sans Extrabold, sans-serif;
 }
 
-/* line 1, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_reset.scss */
+/* line 1, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_reset.scss */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* line 7, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_reset.scss */
+/* line 7, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_reset.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 12, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_reset.scss */
+/* line 12, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_reset.scss */
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -3813,7 +3813,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 22, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_reset.scss */
+/* line 22, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_reset.scss */
 article, aside, dialog,
 figcaption, figure,
 footer, header,
@@ -3822,7 +3822,7 @@ nav, section {
   display: block;
 }
 
-/* line 31, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_reset.scss */
+/* line 31, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_reset.scss */
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -3832,23 +3832,23 @@ body {
   background: #FFF;
 }
 
-/* line 41, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_reset.scss */
+/* line 41, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_reset.scss */
 .container {
   width: 100%;
 }
 
-/* line 45, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/_reset.scss */
+/* line 45, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/_reset.scss */
 .container-mid {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 1, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 1, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 nav {
   display: block;
 }
 
-/* line 5, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 5, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav, .side-nav ul,
 .side-nav ul li,
 .side-nav ul li a {
@@ -3856,7 +3856,7 @@ nav {
   margin: 0;
 }
 
-/* line 12, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 12, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav {
   width: 203px;
   height: 100%;
@@ -3867,7 +3867,7 @@ nav {
   background: linear-gradient(to bottom, #337285, #1F3965 45%, #78ADD3 80%);
   text-align: center;
 }
-/* line 24, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 24, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav .brand-wrapper {
   height: 155px;
   width: 203px;
@@ -3876,16 +3876,16 @@ nav {
   justify-content: center;
   border-bottom: 5px solid #fff;
 }
-/* line 32, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 32, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav .brand-wrapper .company-icon {
   width: 125px;
   height: 95px;
 }
-/* line 38, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 38, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav ul {
   list-style: none;
 }
-/* line 41, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 41, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav ul li {
   height: 75px;
   width: 203px;
@@ -3894,11 +3894,11 @@ nav {
   align-items: center;
   text-align: center;
 }
-/* line 49, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 49, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav ul li:hover, .side-nav ul li:active {
   background: linear-gradient(#1d7774, #73d9d0);
 }
-/* line 55, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 55, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 .side-nav ul li a {
   text-decoration: none;
   color: #E7EBF1;
@@ -3906,12 +3906,12 @@ nav {
   font-weight: bold;
 }
 
-/* line 70, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 70, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 input[id="nav-trigger"] {
   display: none;
 }
 
-/* line 74, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 74, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 label[id="nav-icon"] {
   position: absolute;
   top: 10px;
@@ -3926,12 +3926,12 @@ label[id="nav-icon"] {
   animation-name: rot;
 }
 
-/* line 101, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 101, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 #nav-trigger:checked {
   background: green;
 }
 
-/* line 106, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 106, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 #nav-trigger:checked ~ #nav-icon {
   position: absolute;
   top: 10px;
@@ -3941,7 +3941,7 @@ label[id="nav-icon"] {
   animation-iteration-count: 0;
 }
 
-/* line 115, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 115, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 #nav-trigger:not(:checked) ~ #nav-icon {
   position: absolute;
   top: 10px;
@@ -3949,7 +3949,7 @@ label[id="nav-icon"] {
   transition: 2s;
 }
 
-/* line 123, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 123, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 #nav-trigger:checked ~ .side-nav {
   position: absolute;
   top: 0;
@@ -3957,7 +3957,7 @@ label[id="nav-icon"] {
   transition: 2s;
 }
 
-/* line 130, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
+/* line 130, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/navs/_slide-nav.scss */
 #nav-trigger:not(:checked) ~ .side-nav {
   transition: 2s;
   position: absolute;
@@ -3974,110 +3974,110 @@ label[id="nav-icon"] {
   }
 }
 /* specific classes and ids */
-/* line 3, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 3, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .webdesign {
   background: #ACD085;
 }
 
-/* line 7, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 7, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .web-dev {
   background: #B2729B;
 }
 
-/* line 11, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 11, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .va {
   background: #CA5D2C;
 }
 
-/* line 15, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 15, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .seo {
   background: #55bec8;
 }
 
-/* line 21, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 21, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc1 {
   border-bottom: 5px solid #ACD085;
 }
 
-/* line 25, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 25, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc2 {
   border-bottom: 5px solid #B2729B;
 }
 
-/* line 29, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 29, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc3 {
   border-bottom: 5px solid #CA5D2C;
 }
 
-/* line 33, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 33, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc4 {
   border-bottom: 5px solid #55bec8;
 }
 
 /* specific hovering effects */
-/* line 41, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 41, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card1:hover {
   background: #ACD085;
   cursor: crosshair;
 }
 
-/* line 46, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 46, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card2:hover {
   background: #B2729B;
   cursor: crosshair;
 }
 
-/* line 51, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 51, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card3:hover {
   background: #CA5D2C;
   cursor: crosshair;
 }
 
-/* line 56, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 56, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card4:hover {
   background: #55bec8;
   cursor: crosshair;
 }
 
 /*   general styling for services.css  */
-/* line 10, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 10, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .container .serv-title {
   text-align: center;
   margin: 4rem 0;
 }
 
-/* line 17, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 17, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-list {
   display: flex;
   justify-content: center;
 }
-/* line 21, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 21, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-list .serv-card {
   width: 130px;
   margin-left: 2rem;
   border-bottom: 3.5px solid #000;
   box-shadow: 0 4px 0 #fff;
 }
-/* line 27, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 27, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-list .serv-img {
   width: 100px;
   height: 100px;
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 35, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 35, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-list .serv-name h3 {
   text-align: center;
   font-family: Verdana, geneva, sans-serif;
 }
 
-/* line 43, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 43, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content {
   width: 100%;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-/* line 48, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 48, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect {
   width: 850px;
   height: 450px;
@@ -4085,54 +4085,54 @@ label[id="nav-icon"] {
   display: flex;
   flex-direction: row;
 }
-/* line 55, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 55, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .side-serv {
   width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 66, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 66, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description {
   width: 600px;
 }
-/* line 69, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 69, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description .serv-summary {
   width: 100%;
 }
-/* line 72, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 72, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description .serv-summary p {
   padding-top: 0.5rem;
   padding-left: 0.75rem;
   font-size: 1.08rem;
 }
-/* line 79, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 79, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description .serv-task {
   width: 100%;
 }
-/* line 82, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 82, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description .serv-task ul {
   width: 600px;
   padding-top: 1rem;
   padding-left: 1.75rem;
 }
-/* line 93, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 93, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description .trigger-wrapper {
   width: 100%;
 }
-/* line 98, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 98, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description .trigger-wrapper p .expand-holder {
   color: #000;
   background: #ceced2;
   padding: 0.5rem;
   font-size: 0.8rem;
 }
-/* line 107, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 107, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .serv-content .serv-sect .serv-description .serv-tools {
   width: 100%;
 }
 
-/* line 127, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_services.scss */
+/* line 127, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_services.scss */
 .hideMe {
   display: none;
   transition: 2s;
@@ -4140,72 +4140,72 @@ label[id="nav-icon"] {
 }
 
 /* specific classes and ids */
-/* line 3, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 3, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .webdesign {
   background: #ACD085;
 }
 
-/* line 7, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 7, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .web-dev {
   background: #B2729B;
 }
 
-/* line 11, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 11, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .va {
   background: #CA5D2C;
 }
 
-/* line 15, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 15, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 .seo {
   background: #55bec8;
 }
 
-/* line 21, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 21, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc1 {
   border-bottom: 5px solid #ACD085;
 }
 
-/* line 25, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 25, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc2 {
   border-bottom: 5px solid #B2729B;
 }
 
-/* line 29, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 29, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc3 {
   border-bottom: 5px solid #CA5D2C;
 }
 
-/* line 33, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 33, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #desc4 {
   border-bottom: 5px solid #55bec8;
 }
 
 /* specific hovering effects */
-/* line 41, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 41, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card1:hover {
   background: #ACD085;
   cursor: crosshair;
 }
 
-/* line 46, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 46, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card2:hover {
   background: #B2729B;
   cursor: crosshair;
 }
 
-/* line 51, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 51, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card3:hover {
   background: #CA5D2C;
   cursor: crosshair;
 }
 
-/* line 56, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
+/* line 56, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/services/_service-extras.scss */
 #card4:hover {
   background: #55bec8;
   cursor: crosshair;
 }
 
-/* line 1, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/about/_about.scss */
+/* line 1, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/about/_about.scss */
 .about-sec1 {
   max-width: 100%;
   max-height: 100%;
@@ -4214,7 +4214,7 @@ label[id="nav-icon"] {
   align-items: center;
 }
 
-/* line 9, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/about/_about.scss */
+/* line 9, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/about/_about.scss */
 .about-logo {
   height: 250px;
   width: 250px;
@@ -4222,13 +4222,13 @@ label[id="nav-icon"] {
   margin: 0 auto;
 }
 
-/* line 16, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/about/_about.scss */
+/* line 16, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/about/_about.scss */
 .about-sec1 h1 {
   text-align: center;
   margin: 2rem 0;
 }
 
-/* line 22, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/about/_about.scss */
+/* line 22, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/about/_about.scss */
 .about-sec1 p {
   width: 50%;
   text-align: justify;
@@ -4237,7 +4237,7 @@ label[id="nav-icon"] {
   font-size: 1.2rem;
 }
 
-/* line 3, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 3, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .title-wrapper {
   width: 100%;
   height: 100px;
@@ -4248,11 +4248,11 @@ label[id="nav-icon"] {
   	text-align: center;
   } */
 }
-/* line 12, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 12, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .title-wrapper .main-title {
   width: 100%;
 }
-/* line 15, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 15, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .title-wrapper .main-title .proj-title {
   text-align: center;
   font-size: 2rem;
@@ -4260,17 +4260,17 @@ label[id="nav-icon"] {
   font-weight: bolder;
 }
 
-/* line 29, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 29, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-/* line 34, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 34, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .project {
   width: 50%;
 }
-/* line 37, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 37, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .project .proj-btn {
   border: 1px solid #FFF;
   border-radius: 2.5rem;
@@ -4287,18 +4287,18 @@ label[id="nav-icon"] {
   color: #000;
   display: block;
 }
-/* line 53, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 53, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .project .proj-btn:hover {
   background: #FFF;
   color: #448CC4;
 }
-/* line 60, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 60, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj1 {
   background: linear-gradient(55deg, #CD8943, #D0C080);
   height: auto;
   padding: 1.5rem;
 }
-/* line 65, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 65, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj1 .proj-bg1 {
   background: url("/assets/projects/4-201b2fe201efc54134bbf843f2e0e6d59fe90a72f09a20affffbc9dab549e18d.png");
   background-repeat: no-repeat;
@@ -4306,13 +4306,13 @@ label[id="nav-icon"] {
   width: 100%;
   height: 375px;
 }
-/* line 74, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 74, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj2 {
   background: linear-gradient(55deg, #E9EE90, #ADD057);
   height: auto;
   padding: 1.5rem;
 }
-/* line 79, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 79, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj2 .proj-bg2 {
   background: url("/assets/projects/5-d394f1f4b91672b9a21c77fdb432735efdaf9b5037fa08f2ba5963d9f9d1b024.png");
   background-repeat: no-repeat;
@@ -4320,13 +4320,13 @@ label[id="nav-icon"] {
   width: 100%;
   height: 375px;
 }
-/* line 88, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 88, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj3 {
   background: linear-gradient(55deg, #79DF5B, #61F7B5);
   height: auto;
   padding: 1.5rem;
 }
-/* line 93, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 93, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj3 .proj-bg3 {
   background: url("/assets/projects/1-6243048d9d558906fc0a2bafaeeae1e9a63c274980b48cee060ddaf49590df00.png");
   background-repeat: no-repeat;
@@ -4334,13 +4334,13 @@ label[id="nav-icon"] {
   width: 100%;
   height: 375px;
 }
-/* line 102, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 102, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj4 {
   background: linear-gradient(55deg, #CD8943, red);
   height: auto;
   padding: 1.5rem;
 }
-/* line 107, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 107, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj4 .proj-bg4 {
   background: url("/assets/projects/3-09151930e5dfd61c9e4c465f2548647e284bd160776a40f5452003b0cf677bb3.png");
   background-repeat: no-repeat;
@@ -4348,13 +4348,13 @@ label[id="nav-icon"] {
   width: 100%;
   height: 375px;
 }
-/* line 116, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 116, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj5 {
   background: linear-gradient(55deg, #2DBB96, #4260A3);
   height: auto;
   padding: 1.5rem;
 }
-/* line 121, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 121, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj-container .proj5 .proj-bg5 {
   background: url("/assets/projects/2-e3049d5906cc14cef8919dc4b409a484accada705e18a0854b6ea63cb2d77ddb.jpg");
   background-repeat: no-repeat;
@@ -4363,7 +4363,7 @@ label[id="nav-icon"] {
   height: 375px;
 }
 
-/* line 132, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 132, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj1 h3, .proj2 h3, .proj3 h3,
 .proj4 h3, .proj5 h3 {
   text-align: center;
@@ -4374,7 +4374,7 @@ label[id="nav-icon"] {
   text-transform: uppercase;
 }
 
-/* line 143, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
+/* line 143, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/portfolio/_portfolio.scss */
 .proj1 h1, .proj2 h1, .proj3 h1,
 .proj4 h1, .proj5 h1 {
   text-align: center;
@@ -4384,7 +4384,7 @@ label[id="nav-icon"] {
   letter-spacing: .3rem;
 }
 
-/* line 1, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 1, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .container-form {
   width: 100%;
   margin: 0 auto;
@@ -4392,13 +4392,13 @@ label[id="nav-icon"] {
   box-sizing: border-box;
 }
 
-/* line 9, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 9, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 iframe {
   display: block;
 }
 
 /* contact header */
-/* line 16, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 16, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-header {
   background-color: #eff3f4;
   width: 100%;
@@ -4406,27 +4406,27 @@ iframe {
   display: flex;
   align-items: center;
 }
-/* line 23, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 23, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-header .align-now {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 100%;
 }
-/* line 29, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 29, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-header .align-now .sub-contact-title {
   font-size: 1.5rem;
   font-family: verdana, geneva;
   font-weight: normal;
 }
-/* line 35, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 35, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-header .align-now .contact-title {
   font-size: 3.2rem;
   font-family: sans-serif;
   letter-spacing: 0.7rem;
 }
 
-/* line 45, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 45, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout {
   width: 95%;
   margin: 0 auto;
@@ -4434,53 +4434,53 @@ iframe {
   display: flex;
   border: 1px solid #BEBEBE;
 }
-/* line 52, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 52, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-info {
   width: 30%;
   height: 450px;
 }
-/* line 57, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 57, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-map {
   width: 100%;
   height: 200px;
 }
-/* line 62, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 62, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-locate {
   height: 200px;
 }
-/* line 65, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 65, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-locate p {
   padding-left: 0.5rem;
   padding-bottom: 0.3rem;
   text-align: center;
 }
-/* line 71, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 71, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-locate p:first-child {
   padding-top: 1rem;
 }
-/* line 75, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 75, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-locate a {
   text-decoration: none;
   color: #000;
 }
-/* line 79, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 79, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-locate a:hover, .form-layout .contact-locate a:active {
   color: red;
 }
-/* line 84, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 84, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-layout .contact-locate .hq {
   color: #285E85;
   font-weight: bolder;
 }
 
 /* contact info */
-/* line 101, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 101, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-form {
   width: 70%;
   border-left: 1px solid #BEBEBE;
 }
 
-/* line 106, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 106, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-input {
   padding: 0.8rem;
   margin-bottom: 1rem;
@@ -4488,7 +4488,7 @@ iframe {
   outline-color: none;
 }
 
-/* line 113, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 113, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-fields select {
   padding: 0.8rem;
   margin-bottom: 1rem;
@@ -4497,7 +4497,7 @@ iframe {
   background: #fff;
 }
 
-/* line 123, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 123, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-sm {
   width: 100%;
   height: 50px;
@@ -4505,21 +4505,21 @@ iframe {
   justify-content: space-evenly;
 }
 
-/* line 130, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 130, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .sm-img {
   width: 48px;
   height: 48px;
 }
 
 /* contact form */
-/* line 147, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 147, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .form-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-/* line 153, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 153, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-label {
   font-family: sans-serif;
   font-size: 0.75rem;
@@ -4528,27 +4528,27 @@ iframe {
   text-transform: uppercase;
 }
 
-/* line 161, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 161, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-fields {
   display: flex;
   flex-direction: column;
   margin: 1.7rem 1.7rem;
 }
 
-/* line 167, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 167, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .textarea-wrap {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-/* line 173, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 173, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .textarea-wrap .ta-field {
   width: 65%;
   height: 10rem;
 }
 
-/* line 178, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 178, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .contact-btn {
   padding-top: 1rem;
   margin-bottom: 1rem;
@@ -4557,7 +4557,7 @@ iframe {
   justify-content: center;
 }
 
-/* line 186, /Users/curiousdev/MyCompanySites/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
+/* line 186, /Users/curiousdev/MyApps/ubbytech/app/assets/stylesheets/contacts/_contact.scss */
 .sub-btn {
   outline: none;
   border: none;
