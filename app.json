@@ -1,6 +1,5 @@
 {
   "name": "ubbytech",
-  "stack": "heroku-16",
   "scripts": {
   },
   "env": {
